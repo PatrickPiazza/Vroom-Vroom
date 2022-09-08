@@ -215,6 +215,35 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "Finish",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 16,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 2362,
+						"y": 858,
+						"width": 250,
+						"height": 327,
+						"originX": 0.512,
+						"originY": 0.492,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Car2",
 					"properties": {
 						"initially-visible": true,
@@ -256,8 +285,8 @@
 						}
 					},
 					"world": {
-						"x": 1648,
-						"y": 784,
+						"x": 2048,
+						"y": 800,
 						"width": 96,
 						"height": 96,
 						"originX": 0.5,
@@ -314,10 +343,68 @@
 						}
 					},
 					"world": {
-						"x": 1648,
-						"y": 944,
+						"x": 2048,
+						"y": 928,
 						"width": 96,
 						"height": 96,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "P1Checkpoint",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 17,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1568,
+						"y": 1325,
+						"width": 250,
+						"height": 352,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "P2Checkpoint",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 18,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1568,
+						"y": 1085,
+						"width": 250,
+						"height": 2176,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -465,6 +552,90 @@
 						"y": 1216,
 						"width": 512,
 						"height": 160,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "LapTextA",
+					"properties": {
+						"text": "P1 Laps:",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 75.19999999999989,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 19,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 0,
+						"y": 1728,
+						"width": 736,
+						"height": 128,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "LapTextB",
+					"properties": {
+						"text": "P2 Laps:",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 75.19999999999989,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 20,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 0,
+						"y": 1856,
+						"width": 736,
+						"height": 128,
 						"originX": 0,
 						"originY": 0,
 						"color": [

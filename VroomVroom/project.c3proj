@@ -83,7 +83,12 @@
 			"ContinueButton",
 			"ContinueText",
 			"TrackStraight",
-			"Turn"
+			"Turn",
+			"Finish",
+			"P1Checkpoint",
+			"P2Checkpoint",
+			"LapTextA",
+			"LapTextB"
 		],
 		"subfolders": []
 	},
