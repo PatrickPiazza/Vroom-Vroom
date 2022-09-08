@@ -1,0 +1,66 @@
+{
+	"name": "Car2",
+	"plugin-id": "Sprite",
+	"sid": 623435488795075,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Checkpoints",
+			"type": "number",
+			"desc": "",
+			"sid": 530623821343232
+		},
+		{
+			"name": "LapsComplete",
+			"type": "number",
+			"desc": "",
+			"sid": 875665462505001
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 983471757983668
+		},
+		{
+			"behaviorId": "Car",
+			"name": "Car",
+			"sid": 894415648688602
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 241645594868883
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3091542,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 647139895176341,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

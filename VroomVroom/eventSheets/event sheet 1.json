@@ -1,0 +1,422 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 225311657541935
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "PauseText",
+					"sid": 383638702824974,
+					"parameters": {
+						"text": "\"\""
+					}
+				}
+			],
+			"sid": 690104661729465
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "P1 Control",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 268943471311062,
+							"parameters": {
+								"key": 38
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Car1",
+							"sid": 117222957301985,
+							"behaviorType": "Car",
+							"parameters": {
+								"control": "accelerate"
+							}
+						}
+					],
+					"sid": 115028457905270
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 674744290346011,
+							"parameters": {
+								"key": 40
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Car1",
+							"sid": 350155076458595,
+							"behaviorType": "Car",
+							"parameters": {
+								"control": "brake"
+							}
+						}
+					],
+					"sid": 125595365316265
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 715156860837789,
+							"parameters": {
+								"key": 37
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Car1",
+							"sid": 233275839296528,
+							"behaviorType": "Car",
+							"parameters": {
+								"control": "steer-left"
+							}
+						}
+					],
+					"sid": 824366363687330
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 797018764061565,
+							"parameters": {
+								"key": 39
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Car1",
+							"sid": 685422728521894,
+							"behaviorType": "Car",
+							"parameters": {
+								"control": "steer-right"
+							}
+						}
+					],
+					"sid": 675021346598547
+				}
+			],
+			"sid": 855208131413241
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "P2 Control",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 393251842988217,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Car2",
+							"sid": 302357677831272,
+							"behaviorType": "Car",
+							"parameters": {
+								"control": "accelerate"
+							}
+						}
+					],
+					"sid": 404355996363004
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 664327759480716,
+							"parameters": {
+								"key": 83
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Car2",
+							"sid": 778153794899144,
+							"behaviorType": "Car",
+							"parameters": {
+								"control": "brake"
+							}
+						}
+					],
+					"sid": 845569893595435
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 222096136873324,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Car2",
+							"sid": 189671953925225,
+							"behaviorType": "Car",
+							"parameters": {
+								"control": "steer-left"
+							}
+						}
+					],
+					"sid": 147856087001648
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 808016506209339,
+							"parameters": {
+								"key": 68
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "Car2",
+							"sid": 131975440394328,
+							"behaviorType": "Car",
+							"parameters": {
+								"control": "steer-right"
+							}
+						}
+					],
+					"sid": 255350582113727
+				}
+			],
+			"sid": 581025966148809
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Pausing",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 980429156786736,
+							"parameters": {
+								"key": 27
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "PauseText",
+							"sid": 259922207834710,
+							"parameters": {
+								"text": "\"PAUSE\""
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "ContinueButton",
+							"sid": 367664267116899,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "ContinueText",
+							"sid": 777494585760750,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-time-scale",
+							"objectClass": "System",
+							"sid": 799660030213695,
+							"parameters": {
+								"time-scale": "0"
+							}
+						}
+					],
+					"sid": 687007381130114
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-object-clicked",
+							"objectClass": "Mouse",
+							"sid": 777957188259778,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked",
+								"object-clicked": "ContinueButton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "PauseText",
+							"sid": 244186632627416,
+							"parameters": {
+								"text": "\"\""
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "ContinueButton",
+							"sid": 351800355572748,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "ContinueText",
+							"sid": 567766359089078,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-time-scale",
+							"objectClass": "System",
+							"sid": 990669198037075,
+							"parameters": {
+								"time-scale": "1.0"
+							}
+						}
+					],
+					"sid": 747816855719681
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 577626031723156,
+							"parameters": {
+								"object": "ContinueButton"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "ContinueButton",
+							"sid": 575406918149818,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-font-color",
+							"objectClass": "ContinueText",
+							"sid": 830657006463765,
+							"parameters": {
+								"color": "rgbEx(0, 0, 0)"
+							}
+						}
+					],
+					"sid": 200778310984352
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "cursor-is-over-object",
+							"objectClass": "Mouse",
+							"sid": 932484012399314,
+							"parameters": {
+								"object": "ContinueButton"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "ContinueButton",
+							"sid": 663320397073129,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-font-color",
+							"objectClass": "ContinueText",
+							"sid": 980707574675294,
+							"parameters": {
+								"color": "rgbEx(255, 255, 255)"
+							}
+						}
+					],
+					"sid": 875303741472765
+				}
+			],
+			"sid": 722123940294895
+		}
+	],
+	"sid": 376797403662999
+}
