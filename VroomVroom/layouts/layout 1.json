@@ -265,7 +265,7 @@
 						},
 						"Car": {
 							"properties": {
-								"max-speed": 700,
+								"max-speed": 1000,
 								"acceleration": 500,
 								"deceleration": 500,
 								"steer-speed": 300,
@@ -323,7 +323,7 @@
 						},
 						"Car": {
 							"properties": {
-								"max-speed": 700,
+								"max-speed": 1000,
 								"acceleration": 500,
 								"deceleration": 500,
 								"steer-speed": 300,
