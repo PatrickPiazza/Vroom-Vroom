@@ -47,6 +47,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "gamepad",
+			"name": "Gamepad",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "bound",
 			"name": "Bound to layout",
@@ -88,7 +96,8 @@
 			"P1Checkpoint",
 			"P2Checkpoint",
 			"LapTextA",
-			"LapTextB"
+			"LapTextB",
+			"Gamepad"
 		],
 		"subfolders": []
 	},
