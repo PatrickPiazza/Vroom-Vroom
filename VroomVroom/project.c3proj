@@ -97,7 +97,8 @@
 			"P2Checkpoint",
 			"LapTextA",
 			"LapTextB",
-			"Gamepad"
+			"Gamepad",
+			"barrier"
 		],
 		"subfolders": []
 	},
