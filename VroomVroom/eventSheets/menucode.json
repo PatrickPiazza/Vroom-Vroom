@@ -1,0 +1,346 @@
+{
+	"name": "MenuCode",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "P1Car",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 910598021712673
+		},
+		{
+			"eventType": "variable",
+			"name": "P2Car",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 798036837407085
+		},
+		{
+			"eventType": "variable",
+			"name": "Track",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 686579284164404
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 180728753236789
+				}
+			],
+			"actions": [
+				{
+					"id": "set-css-style",
+					"objectClass": "StartButton",
+					"sid": 800540457248811,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "ExitButton",
+					"sid": 442195662215548,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "Track1Button",
+					"sid": 327756079377746,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "Car1A",
+					"sid": 358810666484301,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "ReadyButton",
+					"sid": 653316761185844,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				}
+			],
+			"sid": 403956482964370
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "StartButton",
+					"sid": 624446202878355
+				}
+			],
+			"actions": [
+				{
+					"id": "scroll-to-object",
+					"objectClass": "System",
+					"sid": 276867815888400,
+					"parameters": {
+						"object": "TrackSelectOrigin"
+					}
+				}
+			],
+			"sid": 128770267949404
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BackButton",
+					"sid": 393316897190633
+				}
+			],
+			"actions": [
+				{
+					"id": "scroll-to-object",
+					"objectClass": "System",
+					"sid": 522402511587953,
+					"parameters": {
+						"object": "MainOrigin"
+					}
+				}
+			],
+			"sid": 472219752019931
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "ExitButton",
+					"sid": 898745264437171
+				}
+			],
+			"actions": [
+				{
+					"id": "close",
+					"objectClass": "Browser",
+					"sid": 194332658363772
+				}
+			],
+			"sid": 352280866136954
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Track1Button",
+					"sid": 661275516358819
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 469508483329273,
+					"parameters": {
+						"variable": "Track",
+						"value": "1"
+					}
+				},
+				{
+					"id": "scroll-to-object",
+					"objectClass": "System",
+					"sid": 139563958442279,
+					"parameters": {
+						"object": "CarSelectOrigin"
+					}
+				}
+			],
+			"sid": 870753444677322
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 144319098401308,
+					"parameters": {
+						"variable": "P1Car",
+						"comparison": 4,
+						"value": "0"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 701024212100672,
+					"parameters": {
+						"variable": "P2Car",
+						"comparison": 4,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "NextButton",
+					"sid": 441936767779778,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "NextButton",
+					"sid": 643908636501005,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				}
+			],
+			"sid": 894225022604474
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "NextButton",
+					"sid": 596586313138454
+				}
+			],
+			"actions": [
+				{
+					"id": "scroll-to-object",
+					"objectClass": "System",
+					"sid": 891119769572049,
+					"parameters": {
+						"object": "ReadyOrigin"
+					}
+				}
+			],
+			"sid": 554917405684686
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Car1A",
+					"sid": 710141264419318
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 876749183039097,
+					"parameters": {
+						"variable": "P1Car",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 673263910760902
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Car1B",
+					"sid": 650478353122134
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 228119505769855,
+					"parameters": {
+						"variable": "P2Car",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 708618319924659
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "BackerButton",
+					"sid": 789828970440730
+				}
+			],
+			"actions": [
+				{
+					"id": "scroll-to-object",
+					"objectClass": "System",
+					"sid": 355543218789280,
+					"parameters": {
+						"object": "CarSelectOrigin"
+					}
+				}
+			],
+			"sid": 512868455987348
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "ReadyButton",
+					"sid": 505192129806223
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 538764892034268,
+					"parameters": {
+						"variable": "Track",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 332740769535583,
+					"parameters": {
+						"layout": "Track1"
+					}
+				}
+			],
+			"sid": 499236468524035
+		}
+	],
+	"sid": 556985430566549
+}

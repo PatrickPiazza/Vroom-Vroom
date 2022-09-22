@@ -1,5 +1,5 @@
 {
-	"name": "Event sheet 1",
+	"name": "Track1Code",
 	"events": [
 		{
 			"eventType": "block",
@@ -15,6 +15,114 @@
 					"id": "set-text",
 					"objectClass": "PauseText",
 					"sid": 383638702824974,
+					"parameters": {
+						"text": "\"\""
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Car1",
+					"sid": 323001209994109,
+					"behaviorType": "Car",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Car2",
+					"sid": 460381995587291,
+					"behaviorType": "Car",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "CountdownText",
+					"sid": 981887834734954,
+					"parameters": {
+						"text": "\"3\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 238197091138252,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "CountdownText",
+					"sid": 572584301023051,
+					"parameters": {
+						"text": "\"2\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 240096447753052,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "CountdownText",
+					"sid": 779630165656749,
+					"parameters": {
+						"text": "\"1\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 452922680656794,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "CountdownText",
+					"sid": 290516201401151,
+					"parameters": {
+						"text": "\"GO GO GO!!!\""
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Car1",
+					"sid": 180317732998236,
+					"behaviorType": "Car",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Car2",
+					"sid": 200290913892537,
+					"behaviorType": "Car",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 527418163515665,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "CountdownText",
+					"sid": 607755968350122,
 					"parameters": {
 						"text": "\"\""
 					}
@@ -35,17 +143,17 @@
 				{
 					"id": "set-text",
 					"objectClass": "LapTextA",
-					"sid": 424225573400751,
+					"sid": 570671375030754,
 					"parameters": {
-						"text": "\"P1 Laps: \" & Car1.LapsComplete"
+						"text": "\"P1 Laps: \" & Car1.LapsComplete & \"/7\""
 					}
 				},
 				{
 					"id": "set-text",
 					"objectClass": "LapTextB",
-					"sid": 998981969480768,
+					"sid": 179652868388677,
 					"parameters": {
-						"text": "\"P2 Laps: \" & Car2.LapsComplete"
+						"text": "\"P2 Laps: \" & Car2.LapsComplete & \"/7\""
 					}
 				}
 			],
@@ -157,6 +265,76 @@
 						}
 					],
 					"sid": 675021346598547
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Car1",
+							"sid": 487759533218471,
+							"parameters": {
+								"object": "TrackStraight"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Car1",
+							"sid": 801984608697374,
+							"parameters": {
+								"object": "Turn"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-max-speed",
+							"objectClass": "Car1",
+							"sid": 368746504923167,
+							"behaviorType": "Car",
+							"parameters": {
+								"max-speed": "500"
+							}
+						}
+					],
+					"sid": 163811217691097,
+					"isOrBlock": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Car1",
+							"sid": 800337235879687,
+							"parameters": {
+								"object": "TrackStraight"
+							}
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Car1",
+							"sid": 139600733785656,
+							"parameters": {
+								"object": "Turn"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-max-speed",
+							"objectClass": "Car1",
+							"sid": 220355651182282,
+							"behaviorType": "Car",
+							"parameters": {
+								"max-speed": "1000"
+							}
+						}
+					],
+					"sid": 139309800216181,
+					"isOrBlock": true
 				}
 			],
 			"sid": 855208131413241
@@ -267,6 +445,76 @@
 						}
 					],
 					"sid": 255350582113727
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Car2",
+							"sid": 880548597615334,
+							"parameters": {
+								"object": "TrackStraight"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Car2",
+							"sid": 700008246055116,
+							"parameters": {
+								"object": "Turn"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-max-speed",
+							"objectClass": "Car2",
+							"sid": 397732027053327,
+							"behaviorType": "Car",
+							"parameters": {
+								"max-speed": "500"
+							}
+						}
+					],
+					"sid": 871482837798758,
+					"isOrBlock": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Car2",
+							"sid": 962880886760256,
+							"parameters": {
+								"object": "TrackStraight"
+							}
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Car2",
+							"sid": 105556400555052,
+							"parameters": {
+								"object": "Turn"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-max-speed",
+							"objectClass": "Car2",
+							"sid": 211463708784180,
+							"behaviorType": "Car",
+							"parameters": {
+								"max-speed": "1000"
+							}
+						}
+					],
+					"sid": 375159823541164,
+					"isOrBlock": true
 				}
 			],
 			"sid": 581025966148809
@@ -557,6 +805,16 @@
 								"comparison": 5,
 								"value": "1"
 							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car1",
+							"sid": 982136164471988,
+							"parameters": {
+								"instance-variable": "LapsComplete",
+								"comparison": 2,
+								"value": "6"
+							}
 						}
 					],
 					"actions": [
@@ -594,6 +852,94 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
+							"objectClass": "Car1",
+							"sid": 850536493575509,
+							"parameters": {
+								"object": "Finish"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car1",
+							"sid": 371985013357494,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"comparison": 5,
+								"value": "1"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car1",
+							"sid": 103813541291385,
+							"parameters": {
+								"instance-variable": "LapsComplete",
+								"comparison": 5,
+								"value": "6"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Car1",
+							"sid": 793983725106066,
+							"parameters": {
+								"instance-variable": "LapsComplete",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Car1",
+							"sid": 592170228173944,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "P1Checkpoint",
+							"sid": 672953597901481,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car1",
+							"sid": 372795912815868,
+							"behaviorType": "Car",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car2",
+							"sid": 868353917777869,
+							"behaviorType": "Car",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "WinText",
+							"sid": 741186107645220,
+							"parameters": {
+								"text": "\"P1 WINS!!!\""
+							}
+						}
+					],
+					"sid": 602403442358667
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
 							"objectClass": "Car2",
 							"sid": 465691905427904,
 							"parameters": {
@@ -608,6 +954,16 @@
 								"instance-variable": "Checkpoints",
 								"comparison": 5,
 								"value": "1"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car2",
+							"sid": 451352713112213,
+							"parameters": {
+								"instance-variable": "LapsComplete",
+								"comparison": 2,
+								"value": "6"
 							}
 						}
 					],
@@ -640,6 +996,94 @@
 						}
 					],
 					"sid": 406330571804067
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Car2",
+							"sid": 665366023075611,
+							"parameters": {
+								"object": "Finish"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car2",
+							"sid": 735726729021494,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"comparison": 5,
+								"value": "1"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car2",
+							"sid": 775219130747092,
+							"parameters": {
+								"instance-variable": "LapsComplete",
+								"comparison": 5,
+								"value": "6"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Car2",
+							"sid": 190631805350748,
+							"parameters": {
+								"instance-variable": "LapsComplete",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Car2",
+							"sid": 178954961269675,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "P2Checkpoint",
+							"sid": 173048567709907,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car1",
+							"sid": 418114353138057,
+							"behaviorType": "Car",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car2",
+							"sid": 420335259819073,
+							"behaviorType": "Car",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "WinText",
+							"sid": 123260978334000,
+							"parameters": {
+								"text": "\"P2 WINS!!!\""
+							}
+						}
+					],
+					"sid": 226550806449073
 				}
 			],
 			"sid": 599502627526302

@@ -55,6 +55,22 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Browser",
+			"name": "Browser",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "bound",
 			"name": "Bound to layout",
@@ -98,7 +114,40 @@
 			"LapTextA",
 			"LapTextB",
 			"Gamepad",
-			"barrier"
+			"barrier",
+			"WinText",
+			"CountdownText",
+			"wp",
+			"Title",
+			"StartButton",
+			"ExitButton",
+			"MainOrigin",
+			"SelectText1",
+			"Track1Button",
+			"Track2Button",
+			"Track3Button",
+			"Track4Button",
+			"TrackSelectOrigin",
+			"BackButton",
+			"Browser",
+			"P1CarText",
+			"P2CarText",
+			"Car1A",
+			"CarSelectOrigin",
+			"Car1B",
+			"Car2A",
+			"Car2B",
+			"Car3A",
+			"Car3B",
+			"Car4A",
+			"Car4B",
+			"Car5A",
+			"Car5B",
+			"NextButton",
+			"ReadyText",
+			"ReadyButton",
+			"BackerButton",
+			"ReadyOrigin"
 		],
 		"subfolders": []
 	},
@@ -110,13 +159,15 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Track1",
+			"Menu"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Track1Code",
+			"MenuCode"
 		],
 		"subfolders": []
 	},
@@ -270,5 +321,5 @@
 	},
 	"viewportWidth": 3840,
 	"viewportHeight": 2160,
-	"firstLayout": null
+	"firstLayout": "Menu"
 }
