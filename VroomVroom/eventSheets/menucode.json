@@ -32,6 +32,16 @@
 			"sid": 686579284164404
 		},
 		{
+			"eventType": "variable",
+			"name": "MenuMusic",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 800194905886904
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -85,9 +95,290 @@
 						"property-name": "\"font-size\"",
 						"value": "\"1em\""
 					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 369440653657499,
+					"parameters": {
+						"variable": "MenuMusic",
+						"value": "choose(0, 1, 2, 3, 4, 5, 6, 7)"
+					}
 				}
 			],
 			"sid": 403956482964370
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 303112173829373
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 497707135372062,
+					"parameters": {
+						"variable": "MenuMusic",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 850817983383770,
+					"parameters": {
+						"audio-file": "GetFree",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 474477574725956
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 239811981227040
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 317470947023385,
+					"parameters": {
+						"variable": "MenuMusic",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 459749217472678,
+					"parameters": {
+						"audio-file": "NoSleep",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 552945133261638
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 378092474119181
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 859528901177809,
+					"parameters": {
+						"variable": "MenuMusic",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 380970728695295,
+					"parameters": {
+						"audio-file": "BulletWithButterflyWings",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 941739122677130
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 236819874888308
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 424363990930915,
+					"parameters": {
+						"variable": "MenuMusic",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 279740360493515,
+					"parameters": {
+						"audio-file": "BeforeIForget",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 773420661693599
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 823113430663894
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 191153616760548,
+					"parameters": {
+						"variable": "MenuMusic",
+						"comparison": 0,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 630754343250019,
+					"parameters": {
+						"audio-file": "HashPipe",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 160546349469225
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 408224510947312
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 295147001785574,
+					"parameters": {
+						"variable": "MenuMusic",
+						"comparison": 0,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 619723512966431,
+					"parameters": {
+						"audio-file": "GoldOnTheCeiling",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 758060822015812
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 452842745163109
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 102255333709397,
+					"parameters": {
+						"variable": "MenuMusic",
+						"comparison": 0,
+						"value": "6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 902882892561022,
+					"parameters": {
+						"audio-file": "Rodeo",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 180613469919704
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 300740464860382
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 781695893957507,
+					"parameters": {
+						"variable": "MenuMusic",
+						"comparison": 0,
+						"value": "7"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 896477422118974,
+					"parameters": {
+						"audio-file": "LittleSister",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 889574997117077
 		},
 		{
 			"eventType": "block",
@@ -330,6 +621,11 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 958591912052391
+				},
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
