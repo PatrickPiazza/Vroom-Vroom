@@ -1014,6 +1014,37 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Music",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 58,
+					"instanceVariables": {
+						"Music": 0
+					},
+					"behaviors": {},
+					"world": {
+						"x": 352,
+						"y": 832,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 907437478852854,

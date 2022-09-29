@@ -247,7 +247,7 @@
 					"type": "Car2",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "IdiotMobile",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -305,7 +305,7 @@
 					"type": "Car1",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "IdiotMobile",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -327,7 +327,7 @@
 								"acceleration": 500,
 								"deceleration": 500,
 								"steer-speed": 300,
-								"drift-recover": 185,
+								"drift-recover": 300,
 								"friction": 0.4,
 								"turn-while-stopped": false,
 								"set-angle": true,
@@ -756,6 +756,90 @@
 						"y": 880,
 						"width": 552,
 						"height": 327,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "P1SpeedText",
+					"properties": {
+						"text": "Text",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 62.80000000000001,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 56,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 36,
+						"y": 57,
+						"width": 1039,
+						"height": 137,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "P2SpeedText",
+					"properties": {
+						"text": "Text",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 62.80000000000001,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 57,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 36,
+						"y": 155,
+						"width": 1039,
+						"height": 137,
 						"originX": 0,
 						"originY": 0,
 						"color": [

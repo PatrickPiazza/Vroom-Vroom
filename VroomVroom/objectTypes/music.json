@@ -1,9 +1,16 @@
 {
-	"name": "Turn",
+	"name": "Music",
 	"plugin-id": "Sprite",
-	"sid": 716430935689919,
+	"sid": 338152493726288,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "Music",
+			"type": "number",
+			"desc": "",
+			"sid": 647127724019508
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
@@ -18,24 +25,12 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6677784,
-						"collisionPoly": {
-							"points": [
-								0,
-								0,
-								0.7099999999999997,
-								0.3220000000000002,
-								1,
-								1,
-								0,
-								1
-							]
-						},
+						"imageSpriteId": 5002572,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 859181558746441,
+				"sid": 493865350940726,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

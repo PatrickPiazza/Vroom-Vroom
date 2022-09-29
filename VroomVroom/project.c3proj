@@ -147,7 +147,10 @@
 			"ReadyText",
 			"ReadyButton",
 			"BackerButton",
-			"ReadyOrigin"
+			"ReadyOrigin",
+			"P1SpeedText",
+			"P2SpeedText",
+			"Music"
 		],
 		"subfolders": []
 	},

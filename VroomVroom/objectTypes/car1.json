@@ -47,13 +47,173 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1797602,
+						"imageSpriteId": 9968259,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.07800000000000003,
+								0.9339999999999999,
+								0.24000000000000005,
+								0.972,
+								0.6299999999999997,
+								0,
+								0.78
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
 				"sid": 640312962397912,
-				"name": "Animation 1",
+				"name": "IdiotMobile",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8996152,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.078,
+								0.934,
+								0.24,
+								0.972,
+								0.63,
+								0,
+								0.78
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 886275014507393,
+				"name": "Zoomy McVroomy",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2704379,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.078,
+								0.934,
+								0.24,
+								0.972,
+								0.63,
+								0,
+								0.78
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 790002402081891,
+				"name": "Fart Engine",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7912424,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.078,
+								0.934,
+								0.24,
+								0.972,
+								0.63,
+								0,
+								0.78
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 387705844510005,
+				"name": "Beep Beep Beep Beep",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 285,
+						"height": 177,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2588914,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.9964912280701754,
+								0,
+								0.9964912280701754,
+								0.5,
+								0.9964912280701754,
+								0.9943502824858758,
+								0.5,
+								0.9943502824858758,
+								0,
+								0.9943502824858758,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 258559927897925,
+				"name": "NANI",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

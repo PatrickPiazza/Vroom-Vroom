@@ -134,6 +134,326 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 560852355093981
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 396516353338482,
+					"parameters": {
+						"variable": "P1Car",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Car1",
+					"sid": 135500731413170,
+					"parameters": {
+						"animation": "\"IdiotMobile\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 811809042082886
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 825493061931332
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 526382855851860,
+					"parameters": {
+						"variable": "P1Car",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Car1",
+					"sid": 913881673988183,
+					"parameters": {
+						"animation": "\"Zoomy McVroomy\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 811292014552004
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 116432260453010
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 322890591155815,
+					"parameters": {
+						"variable": "P1Car",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Car1",
+					"sid": 293412896780154,
+					"parameters": {
+						"animation": "\"Fart Engine\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 947136903247472
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 393583250937433
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 833285816886800,
+					"parameters": {
+						"variable": "P1Car",
+						"comparison": 0,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Car1",
+					"sid": 222391547647737,
+					"parameters": {
+						"animation": "\"Beep Beep Beep Beep\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 721024552183597
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 299759046624943
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 886585396644589,
+					"parameters": {
+						"variable": "P1Car",
+						"comparison": 0,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Car1",
+					"sid": 207056909831468,
+					"parameters": {
+						"animation": "\"NANI\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 761947293042125
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 642932830625084
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 377956015273678,
+					"parameters": {
+						"variable": "P2Car",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Car2",
+					"sid": 349957468481006,
+					"parameters": {
+						"animation": "\"IdiotMobile\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 735592306871535
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 477095954019393
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 146426574615105,
+					"parameters": {
+						"variable": "P2Car",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Car2",
+					"sid": 866891114756788,
+					"parameters": {
+						"animation": "\"Zoomy McVroomy\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 227423888188357
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 615656264842201
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 456721178155335,
+					"parameters": {
+						"variable": "P2Car",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Car2",
+					"sid": 502547475949564,
+					"parameters": {
+						"animation": "\"Fart Engine\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 862133460672484
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 687816862820598
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 619960005913699,
+					"parameters": {
+						"variable": "P2Car",
+						"comparison": 0,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Car2",
+					"sid": 550294658577017,
+					"parameters": {
+						"animation": "\"Beep Beep Beep Beep\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 408479251086696
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 772893859607332
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 544304128888821,
+					"parameters": {
+						"variable": "P2Car",
+						"comparison": 0,
+						"value": "5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Car2",
+					"sid": 343406334631615,
+					"parameters": {
+						"animation": "\"NANI\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 243437989410797
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "every-tick",
 					"objectClass": "System",
 					"sid": 374040310552114
@@ -335,6 +655,27 @@
 					],
 					"sid": 139309800216181,
 					"isOrBlock": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 794509755521038
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "P1SpeedText",
+							"sid": 248554673764493,
+							"parameters": {
+								"text": "\"P1 Speed: \" & (round(Car1.Car.Speed * 1))/1 & \" KM/H\""
+							}
+						}
+					],
+					"sid": 828486661336532
 				}
 			],
 			"sid": 855208131413241
@@ -515,6 +856,27 @@
 					],
 					"sid": 375159823541164,
 					"isOrBlock": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 209816866705934
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "P2SpeedText",
+							"sid": 777989818575489,
+							"parameters": {
+								"text": "\"P2 Speed: \" & (round(Car2.Car.Speed * 1))/1 & \" KM/H\""
+							}
+						}
+					],
+					"sid": 614302718516604
 				}
 			],
 			"sid": 581025966148809
@@ -931,6 +1293,31 @@
 							"parameters": {
 								"text": "\"P1 WINS!!!\""
 							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 913216576627816,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 610249705241510,
+							"parameters": {
+								"variable": "Track1Raced",
+								"value": "true"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 674751047517790,
+							"parameters": {
+								"layout": "Menu"
+							}
 						}
 					],
 					"sid": 602403442358667
@@ -1080,6 +1467,31 @@
 							"sid": 123260978334000,
 							"parameters": {
 								"text": "\"P2 WINS!!!\""
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 642736633918947,
+							"parameters": {
+								"seconds": "2.0"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 315371857648233,
+							"parameters": {
+								"variable": "Track1Raced",
+								"value": "true"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 724834054358762,
+							"parameters": {
+								"layout": "Menu"
 							}
 						}
 					],
