@@ -952,6 +952,27 @@
 						}
 					],
 					"sid": 774540137025445
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-clicked",
+							"objectClass": "BackererButton",
+							"sid": 338932437094642
+						}
+					],
+					"actions": [
+						{
+							"id": "scroll-to-object",
+							"objectClass": "System",
+							"sid": 301818698395458,
+							"parameters": {
+								"object": "TrackSelectOrigin"
+							}
+						}
+					],
+					"sid": 190366465889532
 				}
 			],
 			"sid": 300756107952923

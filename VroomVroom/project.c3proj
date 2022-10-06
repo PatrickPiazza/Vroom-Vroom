@@ -151,7 +151,8 @@
 			"P1SpeedText",
 			"P2SpeedText",
 			"Music",
-			"Splash"
+			"Splash",
+			"BackererButton"
 		],
 		"subfolders": []
 	},

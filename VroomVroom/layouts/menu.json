@@ -1045,6 +1045,37 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "BackererButton",
+					"properties": {
+						"type": "button",
+						"text": "<----- Back",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 99,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 288,
+						"y": 4000,
+						"width": 384,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
 				}
 			],
 			"sid": 907437478852854,
