@@ -519,34 +519,74 @@
 			"sid": 352280866136954
 		},
 		{
-			"eventType": "block",
-			"conditions": [
+			"eventType": "group",
+			"disabled": false,
+			"title": "TrackSelect",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "on-clicked",
-					"objectClass": "Track1Button",
-					"sid": 661275516358819
-				}
-			],
-			"actions": [
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 469508483329273,
-					"parameters": {
-						"variable": "Track",
-						"value": "1"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-clicked",
+							"objectClass": "Track1Button",
+							"sid": 661577362069016
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 133118270347686,
+							"parameters": {
+								"variable": "Track",
+								"value": "1"
+							}
+						},
+						{
+							"id": "scroll-to-object",
+							"objectClass": "System",
+							"sid": 361029982909069,
+							"parameters": {
+								"object": "CarSelectOrigin"
+							}
+						}
+					],
+					"sid": 969372224575462
 				},
 				{
-					"id": "scroll-to-object",
-					"objectClass": "System",
-					"sid": 139563958442279,
-					"parameters": {
-						"object": "CarSelectOrigin"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-clicked",
+							"objectClass": "Track2Button",
+							"sid": 353327371488550
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 928733626518272,
+							"parameters": {
+								"variable": "Track",
+								"value": "2"
+							}
+						},
+						{
+							"id": "scroll-to-object",
+							"objectClass": "System",
+							"sid": 834501794968842,
+							"parameters": {
+								"object": "CarSelectOrigin"
+							}
+						}
+					],
+					"sid": 391151664056696
 				}
 			],
-			"sid": 870753444677322
+			"sid": 682659385456101
 		},
 		{
 			"eventType": "group",
@@ -972,6 +1012,42 @@
 				}
 			],
 			"sid": 499236468524035
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "ReadyButton",
+					"sid": 656055352509906
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 525632743862953,
+					"parameters": {
+						"variable": "Track",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 782419344590566
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 987121976763527,
+					"parameters": {
+						"layout": "Track2"
+					}
+				}
+			],
+			"sid": 927100937865378
 		}
 	],
 	"sid": 556985430566549

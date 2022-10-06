@@ -150,7 +150,8 @@
 			"ReadyOrigin",
 			"P1SpeedText",
 			"P2SpeedText",
-			"Music"
+			"Music",
+			"Splash"
 		],
 		"subfolders": []
 	},
@@ -163,14 +164,16 @@
 	"layouts": {
 		"items": [
 			"Track1",
-			"Menu"
+			"Menu",
+			"Track2"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Track1Code",
-			"MenuCode"
+			"MenuCode",
+			"Track2Code"
 		],
 		"subfolders": []
 	},
