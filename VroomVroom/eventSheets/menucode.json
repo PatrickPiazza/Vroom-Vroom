@@ -127,6 +127,15 @@
 					}
 				},
 				{
+					"id": "set-css-style",
+					"objectClass": "BackererButton",
+					"sid": 365865814161340,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				},
+				{
 					"id": "set-instvar-value",
 					"objectClass": "Music",
 					"sid": 301823503746299,
