@@ -1,7 +1,7 @@
 {
-	"name": "Splash",
+	"name": "Arrow",
 	"plugin-id": "Sprite",
-	"sid": 237589993069240,
+	"sid": 340423738745903,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3748228,
+						"imageSpriteId": 7326899,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 157155517713548,
+				"sid": 761657754616720,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
