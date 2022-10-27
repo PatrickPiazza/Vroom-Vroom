@@ -599,9 +599,9 @@
 						{
 							"id": "set-text",
 							"objectClass": "P1SpeedText",
-							"sid": 997596141012351,
+							"sid": 213426290253575,
 							"parameters": {
-								"text": "\"P1 Speed: \" & (round(Car1.Car.Speed * 1))/1 & \" Pix/S\""
+								"text": "\"P1 Speed: \" & (round(Car1.Car.Speed * 1))/1 & \" Piazzas/HH\""
 							}
 						}
 					],
@@ -611,70 +611,34 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "is-overlapping-another-object",
+							"id": "on-collision-with-another-object",
 							"objectClass": "Car1",
-							"sid": 429276397178343,
+							"sid": 740702675211926,
 							"parameters": {
-								"object": "TrackStraight"
-							},
-							"isInverted": true
-						},
-						{
-							"id": "is-overlapping-another-object",
-							"objectClass": "Car1",
-							"sid": 535138085744098,
-							"parameters": {
-								"object": "Turn"
-							},
-							"isInverted": true
+								"object": "Splash"
+							}
 						}
 					],
 					"actions": [
 						{
-							"id": "set-max-speed",
+							"id": "set-visible",
 							"objectClass": "Car1",
-							"sid": 283291585408003,
+							"sid": 745298373023789,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car1",
+							"sid": 482368162892827,
 							"behaviorType": "Car",
 							"parameters": {
-								"max-speed": "500"
+								"state": "disabled"
 							}
 						}
 					],
 					"sid": 693989159010019,
-					"isOrBlock": true
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "is-overlapping-another-object",
-							"objectClass": "Car1",
-							"sid": 888879619788439,
-							"parameters": {
-								"object": "TrackStraight"
-							}
-						},
-						{
-							"id": "is-overlapping-another-object",
-							"objectClass": "Car1",
-							"sid": 421852669291591,
-							"parameters": {
-								"object": "Turn"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-max-speed",
-							"objectClass": "Car1",
-							"sid": 583608365771276,
-							"behaviorType": "Car",
-							"parameters": {
-								"max-speed": "1000"
-							}
-						}
-					],
-					"sid": 528011747081372,
 					"isOrBlock": true
 				}
 			],
@@ -800,9 +764,9 @@
 						{
 							"id": "set-text",
 							"objectClass": "P2SpeedText",
-							"sid": 848226509445026,
+							"sid": 241902029938430,
 							"parameters": {
-								"text": "\"P2 Speed: \" & (round(Car2.Car.Speed * 1))/1 & \" Pix/S\""
+								"text": "\"P2 Speed: \" & (round(Car2.Car.Speed * 1))/1 & \" Piazzas/HH\""
 							}
 						}
 					],
@@ -812,70 +776,34 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "is-overlapping-another-object",
+							"id": "on-collision-with-another-object",
 							"objectClass": "Car2",
-							"sid": 592581807905258,
+							"sid": 615128224199963,
 							"parameters": {
-								"object": "TrackStraight"
-							},
-							"isInverted": true
-						},
-						{
-							"id": "is-overlapping-another-object",
-							"objectClass": "Car2",
-							"sid": 737430281508683,
-							"parameters": {
-								"object": "Turn"
-							},
-							"isInverted": true
+								"object": "Splash"
+							}
 						}
 					],
 					"actions": [
 						{
-							"id": "set-max-speed",
+							"id": "set-visible",
 							"objectClass": "Car2",
-							"sid": 550782508501899,
+							"sid": 769842687791656,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car2",
+							"sid": 230085757355050,
 							"behaviorType": "Car",
 							"parameters": {
-								"max-speed": "500"
+								"state": "disabled"
 							}
 						}
 					],
 					"sid": 116552367558152,
-					"isOrBlock": true
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "is-overlapping-another-object",
-							"objectClass": "Car2",
-							"sid": 747974485798969,
-							"parameters": {
-								"object": "TrackStraight"
-							}
-						},
-						{
-							"id": "is-overlapping-another-object",
-							"objectClass": "Car2",
-							"sid": 768713983321198,
-							"parameters": {
-								"object": "Turn"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-max-speed",
-							"objectClass": "Car2",
-							"sid": 441569966312937,
-							"behaviorType": "Car",
-							"parameters": {
-								"max-speed": "1000"
-							}
-						}
-					],
-					"sid": 493431594954063,
 					"isOrBlock": true
 				}
 			],
@@ -1499,6 +1427,158 @@
 				}
 			],
 			"sid": 233408938053338
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 214048082771912,
+					"parameters": {
+						"key": 8
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Car1",
+					"sid": 371873152933470,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Car1",
+					"sid": 240543028437849,
+					"behaviorType": "Car",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Car1",
+					"sid": 267923623994721,
+					"behaviorType": "Car",
+					"parameters": {
+						"speed": "0"
+					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "Car1",
+					"sid": 447846725099321,
+					"parameters": {
+						"angle": "270"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Car1",
+					"sid": 246500384753423,
+					"parameters": {
+						"x": "1879",
+						"y": "662"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Car1",
+					"sid": 139020507928500,
+					"parameters": {
+						"instance-variable": "Checkpoints",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "P1Checkpoint",
+					"sid": 273827995184032,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 986954299465059
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 356914452122851,
+					"parameters": {
+						"key": 82
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Car2",
+					"sid": 879577061131068,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Car2",
+					"sid": 180399544053540,
+					"behaviorType": "Car",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Car2",
+					"sid": 430778631135281,
+					"behaviorType": "Car",
+					"parameters": {
+						"speed": "0"
+					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "Car2",
+					"sid": 770729934346868,
+					"parameters": {
+						"angle": "270"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Car2",
+					"sid": 800743097316549,
+					"parameters": {
+						"x": "1737",
+						"y": "662"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Car2",
+					"sid": 739187748938591,
+					"parameters": {
+						"instance-variable": "Checkpoints",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "P1Checkpoint",
+					"sid": 138289858721458,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 392250766387382
 		}
 	],
 	"sid": 501575845514561

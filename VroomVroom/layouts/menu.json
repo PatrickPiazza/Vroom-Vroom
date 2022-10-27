@@ -313,7 +313,7 @@
 						"text": "FACTORY FACTORY",
 						"tooltip": "",
 						"initially-visible": true,
-						"enabled": false,
+						"enabled": true,
 						"auto-font-size": false,
 						"checked": false,
 						"id": "",

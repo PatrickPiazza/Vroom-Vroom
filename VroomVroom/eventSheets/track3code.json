@@ -463,17 +463,17 @@
 				{
 					"id": "set-text",
 					"objectClass": "LapTextA",
-					"sid": 241693722242113,
+					"sid": 138419031803217,
 					"parameters": {
-						"text": "\"P1 Laps: \" & Car1.LapsComplete & \"/7\""
+						"text": "\"P1 Laps: \" & Car1.LapsComplete & \"/5\""
 					}
 				},
 				{
 					"id": "set-text",
 					"objectClass": "LapTextB",
-					"sid": 675595120550095,
+					"sid": 164164133991511,
 					"parameters": {
-						"text": "\"P2 Laps: \" & Car2.LapsComplete & \"/7\""
+						"text": "\"P2 Laps: \" & Car2.LapsComplete & \"/5\""
 					}
 				}
 			],
@@ -599,9 +599,9 @@
 						{
 							"id": "set-text",
 							"objectClass": "P1SpeedText",
-							"sid": 322729826486309,
+							"sid": 430556649670516,
 							"parameters": {
-								"text": "\"P1 Speed: \" & (round(Car1.Car.Speed * 1))/1 & \" Pix/S\""
+								"text": "\"P1 Speed: \" & (round(Car1.Car.Speed * 1))/1 & \" Piazzas/HH\""
 							}
 						}
 					],
@@ -730,9 +730,9 @@
 						{
 							"id": "set-text",
 							"objectClass": "P2SpeedText",
-							"sid": 511703808488130,
+							"sid": 548707902825096,
 							"parameters": {
-								"text": "\"P2 Speed: \" & (round(Car2.Car.Speed * 1))/1 & \" Pix/S\""
+								"text": "\"P2 Speed: \" & (round(Car2.Car.Speed * 1))/1 & \" Piazzas/HH\""
 							}
 						}
 					],
@@ -929,18 +929,52 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Car1",
+							"sid": 514407104163046,
+							"parameters": {
+								"object": "P1Checkpoint"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "P1Checkpoint",
+							"sid": 582537417987374,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Car1",
+							"sid": 625665938956918,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 791793105714000
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Car1",
 							"sid": 977583606685075,
 							"parameters": {
 								"object": "P1Checkpoint"
 							}
 						},
 						{
-							"id": "compare-y",
+							"id": "compare-instance-variable",
 							"objectClass": "Car1",
-							"sid": 136708518320210,
+							"sid": 883361141682734,
 							"parameters": {
+								"instance-variable": "Checkpoints",
 								"comparison": 5,
-								"y-co-ordinate": "1088"
+								"value": "3"
 							}
 						}
 					],
@@ -951,6 +985,14 @@
 							"sid": 298738037440138,
 							"parameters": {
 								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "P1Checkpoint2",
+							"sid": 407035055381663,
+							"parameters": {
+								"visibility": "visible"
 							}
 						},
 						{
@@ -971,18 +1013,52 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Car2",
+							"sid": 244021260565482,
+							"parameters": {
+								"object": "P2Checkpoint"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "P2Checkpoint",
+							"sid": 358838805679982,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Car2",
+							"sid": 602479483353974,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 162962874695592
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Car2",
 							"sid": 164563789868491,
 							"parameters": {
 								"object": "P2Checkpoint"
 							}
 						},
 						{
-							"id": "compare-y",
+							"id": "compare-instance-variable",
 							"objectClass": "Car2",
-							"sid": 501102389353000,
+							"sid": 651796808443540,
 							"parameters": {
+								"instance-variable": "Checkpoints",
 								"comparison": 5,
-								"y-co-ordinate": "1088"
+								"value": "3"
 							}
 						}
 					],
@@ -993,6 +1069,14 @@
 							"sid": 996244155049852,
 							"parameters": {
 								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "P2Checkpoint2",
+							"sid": 565034491966161,
+							"parameters": {
+								"visibility": "visible"
 							}
 						},
 						{
@@ -1013,6 +1097,72 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Car1",
+							"sid": 818986760175396,
+							"parameters": {
+								"object": "P1Checkpoint2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "P1Checkpoint2",
+							"sid": 275316658697238,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Car1",
+							"sid": 631034475495043,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 750606106170190
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Car2",
+							"sid": 242251614239900,
+							"parameters": {
+								"object": "P2Checkpoint2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "P2Checkpoint2",
+							"sid": 992305490074097,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Car2",
+							"sid": 148842918707360,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 837274049699299
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Car1",
 							"sid": 276278721931514,
 							"parameters": {
 								"object": "Finish"
@@ -1021,21 +1171,21 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Car1",
-							"sid": 953920873675144,
+							"sid": 815418853764730,
 							"parameters": {
 								"instance-variable": "Checkpoints",
 								"comparison": 5,
-								"value": "1"
+								"value": "4"
 							}
 						},
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Car1",
-							"sid": 960782428022497,
+							"sid": 707696178046944,
 							"parameters": {
 								"instance-variable": "LapsComplete",
 								"comparison": 2,
-								"value": "6"
+								"value": "4"
 							}
 						}
 					],
@@ -1083,21 +1233,21 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Car1",
-							"sid": 744634535416561,
+							"sid": 886647924465322,
 							"parameters": {
 								"instance-variable": "Checkpoints",
 								"comparison": 5,
-								"value": "1"
+								"value": "4"
 							}
 						},
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Car1",
-							"sid": 783915425997104,
+							"sid": 765295502011513,
 							"parameters": {
 								"instance-variable": "LapsComplete",
 								"comparison": 5,
-								"value": "6"
+								"value": "4"
 							}
 						}
 					],
@@ -1196,21 +1346,21 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Car2",
-							"sid": 900499849651375,
+							"sid": 490842097097707,
 							"parameters": {
 								"instance-variable": "Checkpoints",
 								"comparison": 5,
-								"value": "1"
+								"value": "4"
 							}
 						},
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Car2",
-							"sid": 202414711377690,
+							"sid": 283381308451745,
 							"parameters": {
 								"instance-variable": "LapsComplete",
 								"comparison": 2,
-								"value": "6"
+								"value": "4"
 							}
 						}
 					],
@@ -1258,21 +1408,21 @@
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Car2",
-							"sid": 510009812621386,
+							"sid": 802059105314067,
 							"parameters": {
 								"instance-variable": "Checkpoints",
 								"comparison": 5,
-								"value": "1"
+								"value": "4"
 							}
 						},
 						{
 							"id": "compare-instance-variable",
 							"objectClass": "Car2",
-							"sid": 997589095859634,
+							"sid": 800745808025377,
 							"parameters": {
 								"instance-variable": "LapsComplete",
 								"comparison": 5,
-								"value": "6"
+								"value": "4"
 							}
 						}
 					],
@@ -1356,9 +1506,218 @@
 						}
 					],
 					"sid": 311578711908224
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-visible",
+							"objectClass": "P1Checkpoint2",
+							"sid": 932732281889087
+						},
+						{
+							"id": "is-visible",
+							"objectClass": "P2Checkpoint2",
+							"sid": 199432010480229
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Arrow2",
+							"sid": 364194692776333,
+							"parameters": {
+								"animation": "\"Animation 2\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 196351276482593,
+					"isOrBlock": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-visible",
+							"objectClass": "P1Checkpoint2",
+							"sid": 232054838045204,
+							"isInverted": true
+						},
+						{
+							"id": "is-visible",
+							"objectClass": "P2Checkpoint2",
+							"sid": 537428900005398,
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Arrow2",
+							"sid": 291677857930303,
+							"parameters": {
+								"animation": "\"Animation 1\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 870893123822978
 				}
 			],
 			"sid": 140216387731376
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 245267980990770,
+					"parameters": {
+						"key": 8
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Car1",
+					"sid": 354721201558997,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Car1",
+					"sid": 721388987771231,
+					"behaviorType": "Car",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Car1",
+					"sid": 854404886172158,
+					"behaviorType": "Car",
+					"parameters": {
+						"speed": "0"
+					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "Car1",
+					"sid": 297580444690672,
+					"parameters": {
+						"angle": "270"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Car1",
+					"sid": 995604707197580,
+					"parameters": {
+						"x": "2875",
+						"y": "1757"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Car1",
+					"sid": 127248990938956,
+					"parameters": {
+						"instance-variable": "Checkpoints",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "P1Checkpoint",
+					"sid": 741608001968192,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 394504705934873
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 902837302928346,
+					"parameters": {
+						"key": 82
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Car2",
+					"sid": 885973667098445,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Car2",
+					"sid": 837963587769510,
+					"behaviorType": "Car",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Car2",
+					"sid": 324123820031167,
+					"behaviorType": "Car",
+					"parameters": {
+						"speed": "0"
+					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "Car2",
+					"sid": 833526321055187,
+					"parameters": {
+						"angle": "270"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Car2",
+					"sid": 107364208582715,
+					"parameters": {
+						"x": "2747",
+						"y": "1757"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Car2",
+					"sid": 962933215623938,
+					"parameters": {
+						"instance-variable": "Checkpoints",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "P1Checkpoint",
+					"sid": 322438527762998,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 478355016443318
 		}
 	],
 	"sid": 513152487291452

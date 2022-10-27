@@ -669,9 +669,9 @@
 						{
 							"id": "set-text",
 							"objectClass": "P1SpeedText",
-							"sid": 824577093897978,
+							"sid": 507413446286418,
 							"parameters": {
-								"text": "\"P1 Speed: \" & (round(Car1.Car.Speed * 1))/1 & \" Pix/S\""
+								"text": "\"P1 Speed: \" & (round(Car1.Car.Speed * 1))/1 & \" Piazzas/HH\""
 							}
 						}
 					],
@@ -870,9 +870,9 @@
 						{
 							"id": "set-text",
 							"objectClass": "P2SpeedText",
-							"sid": 134377685074548,
+							"sid": 732108424292916,
 							"parameters": {
-								"text": "\"P2 Speed: \" & (round(Car2.Car.Speed * 1))/1 & \" Pix/S\""
+								"text": "\"P2 Speed: \" & (round(Car2.Car.Speed * 1))/1 & \" Piazzas/HH\""
 							}
 						}
 					],
@@ -1499,6 +1499,142 @@
 				}
 			],
 			"sid": 599502627526302
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 370990681460679,
+					"parameters": {
+						"key": 8
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Car1",
+					"sid": 489552825972468,
+					"behaviorType": "Car",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Car1",
+					"sid": 530059902660792,
+					"behaviorType": "Car",
+					"parameters": {
+						"speed": "0"
+					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "Car1",
+					"sid": 664415389280401,
+					"parameters": {
+						"angle": "0"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Car1",
+					"sid": 809453761984042,
+					"parameters": {
+						"x": "2048",
+						"y": "928"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Car1",
+					"sid": 548256511253407,
+					"parameters": {
+						"instance-variable": "Checkpoints",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "P1Checkpoint",
+					"sid": 779464369288262,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 195755602696873
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 894577294309310,
+					"parameters": {
+						"key": 82
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "Car2",
+					"sid": 564042804860857,
+					"behaviorType": "Car",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Car2",
+					"sid": 274963334564309,
+					"behaviorType": "Car",
+					"parameters": {
+						"speed": "0"
+					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "Car2",
+					"sid": 402528218959728,
+					"parameters": {
+						"angle": "0"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "Car2",
+					"sid": 892536602435294,
+					"parameters": {
+						"x": "2048",
+						"y": "800"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "Car2",
+					"sid": 931275927258876,
+					"parameters": {
+						"instance-variable": "Checkpoints",
+						"value": "0"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "P1Checkpoint",
+					"sid": 670651094342597,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 804096497109390
 		}
 	],
 	"sid": 376797403662999
