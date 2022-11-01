@@ -8,6 +8,7 @@
 			"name": "Music",
 			"type": "number",
 			"desc": "",
+			"show": true,
 			"sid": 647127724019508
 		}
 	],

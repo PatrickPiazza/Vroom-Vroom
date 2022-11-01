@@ -8,12 +8,14 @@
 			"name": "Checkpoints",
 			"type": "number",
 			"desc": "",
+			"show": true,
 			"sid": 530623821343232
 		},
 		{
 			"name": "LapsComplete",
 			"type": "number",
 			"desc": "",
+			"show": true,
 			"sid": 875665462505001
 		}
 	],

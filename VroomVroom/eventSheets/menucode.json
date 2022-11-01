@@ -223,6 +223,7 @@
 						"audio-file": "GetFree",
 						"loop": "looping",
 						"volume": "0",
+						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
 				}
@@ -257,6 +258,7 @@
 						"audio-file": "NoSleep",
 						"loop": "looping",
 						"volume": "0",
+						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
 				}
@@ -291,6 +293,7 @@
 						"audio-file": "BulletWithButterflyWings",
 						"loop": "looping",
 						"volume": "0",
+						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
 				}
@@ -325,6 +328,7 @@
 						"audio-file": "BeforeIForget",
 						"loop": "looping",
 						"volume": "0",
+						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
 				}
@@ -359,6 +363,7 @@
 						"audio-file": "HashPipe",
 						"loop": "looping",
 						"volume": "0",
+						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
 				}
@@ -393,6 +398,7 @@
 						"audio-file": "GoldOnTheCeiling",
 						"loop": "looping",
 						"volume": "0",
+						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
 				}
@@ -427,6 +433,7 @@
 						"audio-file": "Rodeo",
 						"loop": "looping",
 						"volume": "0",
+						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
 				}
@@ -461,6 +468,7 @@
 						"audio-file": "LittleSister",
 						"loop": "looping",
 						"volume": "0",
+						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
 				}
