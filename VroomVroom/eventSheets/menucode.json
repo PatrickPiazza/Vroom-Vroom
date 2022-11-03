@@ -631,6 +631,36 @@
 						}
 					],
 					"sid": 488583966437115
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-clicked",
+							"objectClass": "Track4Button",
+							"sid": 413921913515031
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 330640006944939,
+							"parameters": {
+								"variable": "Track",
+								"value": "4"
+							}
+						},
+						{
+							"id": "scroll-to-object",
+							"objectClass": "System",
+							"sid": 955315883227763,
+							"parameters": {
+								"object": "CarSelectOrigin"
+							}
+						}
+					],
+					"sid": 274000140575779
 				}
 			],
 			"sid": 682659385456101
@@ -1152,6 +1182,42 @@
 				}
 			],
 			"sid": 927049515526031
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "ReadyButton",
+					"sid": 265223863058130
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 498869833250178,
+					"parameters": {
+						"variable": "Track",
+						"comparison": 0,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 101493219027648
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 872867236661836,
+					"parameters": {
+						"layout": "Track4"
+					}
+				}
+			],
+			"sid": 300820641332239
 		}
 	],
 	"sid": 556985430566549
