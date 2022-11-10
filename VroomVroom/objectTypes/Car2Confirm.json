@@ -1,7 +1,7 @@
 {
-	"name": "Car1",
+	"name": "Car2Confirm",
 	"plugin-id": "Sprite",
-	"sid": 779358902475462,
+	"sid": 346954077971480,
 	"isGlobal": false,
 	"instanceVariables": [
 		{
@@ -9,31 +9,31 @@
 			"type": "number",
 			"desc": "",
 			"show": true,
-			"sid": 189280070942380
+			"sid": 217755064083288
 		},
 		{
 			"name": "LapsComplete",
 			"type": "number",
 			"desc": "",
 			"show": true,
-			"sid": 154150122496906
+			"sid": 967404483959560
 		}
 	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "bound",
 			"name": "BoundToLayout",
-			"sid": 220473914357933
+			"sid": 811136405227550
 		},
 		{
 			"behaviorId": "Car",
 			"name": "Car",
-			"sid": 280760381795414
+			"sid": 906541169974484
 		},
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 538030361212496
+			"sid": 483307862942065
 		}
 	],
 	"effectTypes": [],
@@ -49,15 +49,15 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9968259,
+						"imageSpriteId": 3283199,
 						"collisionPoly": {
 							"points": [
 								0,
-								0.07800000000000003,
-								0.9339999999999999,
-								0.24000000000000005,
+								0.078,
+								0.934,
+								0.24,
 								0.972,
-								0.6299999999999997,
+								0.63,
 								0,
 								0.78
 							]
@@ -66,7 +66,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 640312962397912,
+				"sid": 317890349403876,
 				"name": "IdiotMobile",
 				"isLooping": false,
 				"isPingPong": false,
@@ -84,7 +84,7 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8996152,
+						"imageSpriteId": 6606368,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -101,7 +101,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 886275014507393,
+				"sid": 935395204917188,
 				"name": "Zoomy McVroomy",
 				"isLooping": false,
 				"isPingPong": false,
@@ -119,7 +119,7 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2704379,
+						"imageSpriteId": 3894159,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -136,7 +136,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 790002402081891,
+				"sid": 386433468839985,
 				"name": "Fart Engine",
 				"isLooping": false,
 				"isPingPong": false,
@@ -154,7 +154,7 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7912424,
+						"imageSpriteId": 42743,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -171,7 +171,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 387705844510005,
+				"sid": 810520965502083,
 				"name": "Beep Beep Beep Beep",
 				"isLooping": false,
 				"isPingPong": false,
@@ -189,7 +189,7 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2588914,
+						"imageSpriteId": 8558628,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -214,7 +214,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 258559927897925,
+				"sid": 581730312826894,
 				"name": "NANI",
 				"isLooping": false,
 				"isPingPong": false,
@@ -232,12 +232,12 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6572995,
+						"imageSpriteId": 6221059,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 738537124018062,
+				"sid": 967878556145826,
 				"name": "NA",
 				"isLooping": false,
 				"isPingPong": false,

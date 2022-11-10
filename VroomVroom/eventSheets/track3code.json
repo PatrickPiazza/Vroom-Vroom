@@ -1215,6 +1215,23 @@
 							"parameters": {
 								"visibility": "visible"
 							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Incase",
+							"sid": 281594166612086,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Incase",
+							"sid": 509864060060028,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "enabled"
+							}
 						}
 					],
 					"sid": 610536489909801
@@ -1390,6 +1407,23 @@
 							"parameters": {
 								"visibility": "visible"
 							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Incase",
+							"sid": 566503853928624,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Incase",
+							"sid": 481503864992126,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "enabled"
+							}
 						}
 					],
 					"sid": 832136107660910
@@ -1529,6 +1563,23 @@
 							"parameters": {
 								"animation": "\"Animation 2\"",
 								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Incase",
+							"sid": 938268129604912,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Incase",
+							"sid": 454599110148764,
+							"behaviorType": "Solid",
+							"parameters": {
+								"state": "disabled"
 							}
 						}
 					],

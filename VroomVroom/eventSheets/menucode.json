@@ -129,7 +129,16 @@
 				{
 					"id": "set-css-style",
 					"objectClass": "BackererButton",
-					"sid": 365865814161340,
+					"sid": 421317814388881,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "NextextButton",
+					"sid": 801115309810191,
 					"parameters": {
 						"property-name": "\"font-size\"",
 						"value": "\"1em\""
@@ -142,6 +151,24 @@
 					"parameters": {
 						"instance-variable": "Music",
 						"value": "choose(0, 1, 2, 3, 4, 5, 6, 7)"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Car1",
+					"sid": 815004279027797,
+					"parameters": {
+						"animation": "\"NA\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Car2",
+					"sid": 859088213711194,
+					"parameters": {
+						"animation": "\"NA\"",
+						"from": "beginning"
 					}
 				}
 			],
@@ -562,11 +589,27 @@
 							}
 						},
 						{
-							"id": "scroll-to-object",
-							"objectClass": "System",
-							"sid": 361029982909069,
+							"id": "set-text",
+							"objectClass": "TrackDescription",
+							"sid": 162802029758928,
 							"parameters": {
-								"object": "CarSelectOrigin"
+								"text": "\"Just a big dumb-dumb oval surrounded by a buncha greenery. Great place to get started! (7 laps)\""
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "NextextButton",
+							"sid": 343561490002637,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TrackConfirmation",
+							"sid": 900241677136888,
+							"parameters": {
+								"text": "\"GREEN OVAL\""
 							}
 						}
 					],
@@ -592,11 +635,27 @@
 							}
 						},
 						{
-							"id": "scroll-to-object",
-							"objectClass": "System",
-							"sid": 834501794968842,
+							"id": "set-text",
+							"objectClass": "TrackDescription",
+							"sid": 474212936163498,
 							"parameters": {
-								"object": "CarSelectOrigin"
+								"text": "\"A track that's been stranded floating in the middle of the ocean after a huirricane sent it flying! Don't veer off course or else...Kersploosh! (5 laps)\""
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "NextextButton",
+							"sid": 582842851023007,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TrackConfirmation",
+							"sid": 808614121258499,
+							"parameters": {
+								"text": "\"HOT WATER\""
 							}
 						}
 					],
@@ -622,11 +681,27 @@
 							}
 						},
 						{
-							"id": "scroll-to-object",
-							"objectClass": "System",
-							"sid": 915141145213845,
+							"id": "set-text",
+							"objectClass": "TrackDescription",
+							"sid": 753213015977232,
 							"parameters": {
-								"object": "CarSelectOrigin"
+								"text": "\"A track in a busy, busy, and oh, did I mention busy factory! Use the poorly drawn arrows as a guide to traverse through each lap! (5 laps)\""
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "NextextButton",
+							"sid": 671785101106794,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TrackConfirmation",
+							"sid": 339612538228014,
+							"parameters": {
+								"text": "\"FACTORY FACTORY\""
 							}
 						}
 					],
@@ -652,15 +727,52 @@
 							}
 						},
 						{
+							"id": "set-text",
+							"objectClass": "TrackDescription",
+							"sid": 236558506367251,
+							"parameters": {
+								"text": "\"The simplest designed track yet, it's just a f**king circle! But, not only is it much longer lap-wise, but it's in SPAAAAAAAAAAAAAAAAAAAAACE!!11!!1! (50 laps)\""
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "NextextButton",
+							"sid": 208307190864229,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TrackConfirmation",
+							"sid": 516825505801153,
+							"parameters": {
+								"text": "\"#SPACE\""
+							}
+						}
+					],
+					"sid": 274000140575779
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-clicked",
+							"objectClass": "NextextButton",
+							"sid": 273433939909030
+						}
+					],
+					"actions": [
+						{
 							"id": "scroll-to-object",
 							"objectClass": "System",
-							"sid": 955315883227763,
+							"sid": 672513255578749,
 							"parameters": {
 								"object": "CarSelectOrigin"
 							}
 						}
 					],
-					"sid": 274000140575779
+					"sid": 839517539725082
 				}
 			],
 			"sid": 682659385456101
@@ -690,6 +802,24 @@
 								"variable": "P1Car",
 								"value": "1"
 							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car1",
+							"sid": 345647590861143,
+							"parameters": {
+								"animation": "\"IdiotMobile\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car1Confirm",
+							"sid": 107051903874804,
+							"parameters": {
+								"animation": "\"IdiotMobile\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 118617838048666
@@ -711,6 +841,24 @@
 							"parameters": {
 								"variable": "P2Car",
 								"value": "1"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car2",
+							"sid": 272506743633095,
+							"parameters": {
+								"animation": "\"IdiotMobile\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car2Confirm",
+							"sid": 553134376790992,
+							"parameters": {
+								"animation": "\"IdiotMobile\"",
+								"from": "beginning"
 							}
 						}
 					],
@@ -734,6 +882,24 @@
 								"variable": "P1Car",
 								"value": "2"
 							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car1",
+							"sid": 856141477787097,
+							"parameters": {
+								"animation": "\"Zoomy McVroomy\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car1Confirm",
+							"sid": 680124087665755,
+							"parameters": {
+								"animation": "\"Zoomy McVroomy\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 322794329930626
@@ -755,6 +921,24 @@
 							"parameters": {
 								"variable": "P2Car",
 								"value": "2"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car2",
+							"sid": 956664828385217,
+							"parameters": {
+								"animation": "\"Zoomy McVroomy\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car2Confirm",
+							"sid": 341329310673642,
+							"parameters": {
+								"animation": "\"Zoomy McVroomy\"",
+								"from": "beginning"
 							}
 						}
 					],
@@ -778,6 +962,24 @@
 								"variable": "P1Car",
 								"value": "3"
 							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car1",
+							"sid": 848603230983068,
+							"parameters": {
+								"animation": "\"Fart Engine\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car1Confirm",
+							"sid": 435233446391174,
+							"parameters": {
+								"animation": "\"Fart Engine\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 729670341640660
@@ -799,6 +1001,24 @@
 							"parameters": {
 								"variable": "P2Car",
 								"value": "3"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car2",
+							"sid": 474643029980041,
+							"parameters": {
+								"animation": "\"Fart Engine\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car2Confirm",
+							"sid": 315445734099279,
+							"parameters": {
+								"animation": "\"Fart Engine\"",
+								"from": "beginning"
 							}
 						}
 					],
@@ -822,6 +1042,24 @@
 								"variable": "P1Car",
 								"value": "4"
 							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car1",
+							"sid": 730442414709922,
+							"parameters": {
+								"animation": "\"Beep Beep Beep Beep\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car1Confirm",
+							"sid": 745020477086897,
+							"parameters": {
+								"animation": "\"Beep Beep Beep Beep\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 700426417669803
@@ -843,6 +1081,24 @@
 							"parameters": {
 								"variable": "P2Car",
 								"value": "4"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car2",
+							"sid": 179496383621172,
+							"parameters": {
+								"animation": "\"Beep Beep Beep Beep\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car2Confirm",
+							"sid": 202257843645361,
+							"parameters": {
+								"animation": "\"Beep Beep Beep Beep\"",
+								"from": "beginning"
 							}
 						}
 					],
@@ -866,6 +1122,24 @@
 								"variable": "P1Car",
 								"value": "5"
 							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car1",
+							"sid": 204507296910306,
+							"parameters": {
+								"animation": "\"NANI\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car1Confirm",
+							"sid": 519135474872916,
+							"parameters": {
+								"animation": "\"NANI\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 992661675797649
@@ -887,6 +1161,24 @@
 							"parameters": {
 								"variable": "P2Car",
 								"value": "5"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car2",
+							"sid": 294734449502753,
+							"parameters": {
+								"animation": "\"NANI\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Car2Confirm",
+							"sid": 842608250102762,
+							"parameters": {
+								"animation": "\"NANI\"",
+								"from": "beginning"
 							}
 						}
 					],

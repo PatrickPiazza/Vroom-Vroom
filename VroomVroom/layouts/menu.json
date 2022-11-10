@@ -1054,7 +1054,7 @@
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
-						"auto-font-size": true,
+						"auto-font-size": false,
 						"checked": false,
 						"id": "",
 						"class": ""
@@ -1075,6 +1075,353 @@
 							1,
 							1
 						]
+					}
+				},
+				{
+					"type": "Car1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "IdiotMobile",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 141,
+					"instanceVariables": {
+						"Checkpoints": 0,
+						"LapsComplete": 0
+					},
+					"behaviors": {
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						},
+						"Car": {
+							"properties": {
+								"max-speed": 1000,
+								"acceleration": 500,
+								"deceleration": 500,
+								"steer-speed": 300,
+								"drift-recover": 300,
+								"friction": 0.4,
+								"turn-while-stopped": false,
+								"set-angle": true,
+								"default-controls": false,
+								"enabled": true
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 1120,
+						"y": 3552,
+						"width": 288,
+						"height": 288,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 4.71238898038469,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Car2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "IdiotMobile",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 150,
+					"instanceVariables": {
+						"Checkpoints": 0,
+						"LapsComplete": 0
+					},
+					"behaviors": {
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						},
+						"Car": {
+							"properties": {
+								"max-speed": 1000,
+								"acceleration": 500,
+								"deceleration": 500,
+								"steer-speed": 300,
+								"drift-recover": 185,
+								"friction": 0.4,
+								"turn-while-stopped": false,
+								"set-angle": true,
+								"default-controls": false,
+								"enabled": true
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 1472,
+						"y": 3552,
+						"width": 288,
+						"height": 288,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 4.71238898038469,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TrackDescription",
+					"properties": {
+						"text": "",
+						"enable-bbcode": true,
+						"font": "Impact",
+						"size": 54.99999999999999,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 185,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 6336,
+						"y": 704,
+						"width": 1088,
+						"height": 640,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "NextextButton",
+					"properties": {
+						"type": "button",
+						"text": "Neckst",
+						"tooltip": "",
+						"initially-visible": false,
+						"enabled": true,
+						"auto-font-size": false,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 186,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 6240,
+						"y": 1504,
+						"width": 256,
+						"height": 96,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "Car1Confirm",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "IdiotMobile",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 187,
+					"instanceVariables": {
+						"Checkpoints": 0,
+						"LapsComplete": 0
+					},
+					"behaviors": {
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						},
+						"Car": {
+							"properties": {
+								"max-speed": 1000,
+								"acceleration": 500,
+								"deceleration": 500,
+								"steer-speed": 300,
+								"drift-recover": 300,
+								"friction": 0.4,
+								"turn-while-stopped": false,
+								"set-angle": true,
+								"default-controls": false,
+								"enabled": true
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 6496,
+						"y": 3840,
+						"width": 256,
+						"height": 256,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 4.71238898038469,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Car2Confirm",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "IdiotMobile",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 188,
+					"instanceVariables": {
+						"Checkpoints": 0,
+						"LapsComplete": 0
+					},
+					"behaviors": {
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						},
+						"Car": {
+							"properties": {
+								"max-speed": 1000,
+								"acceleration": 500,
+								"deceleration": 500,
+								"steer-speed": 300,
+								"drift-recover": 185,
+								"friction": 0.4,
+								"turn-while-stopped": false,
+								"set-angle": true,
+								"default-controls": false,
+								"enabled": true
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 6720,
+						"y": 3840,
+						"width": 256,
+						"height": 256,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 4.71238898038469,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "TrackConfirmation",
+					"properties": {
+						"text": "Text",
+						"enable-bbcode": true,
+						"font": "Impact",
+						"size": 58.39999999999999,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 189,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 6880,
+						"y": 3776,
+						"width": 1088,
+						"height": 160,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],
