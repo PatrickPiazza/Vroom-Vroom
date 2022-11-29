@@ -509,7 +509,8 @@
 							}
 						}
 					],
-					"sid": 889322760652184
+					"sid": 889322760652184,
+					"isOrBlock": true
 				},
 				{
 					"eventType": "block",
@@ -534,7 +535,8 @@
 							}
 						}
 					],
-					"sid": 791423064680503
+					"sid": 791423064680503,
+					"isOrBlock": true
 				},
 				{
 					"eventType": "block",
