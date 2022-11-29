@@ -1,7 +1,7 @@
 {
-	"name": "P1Checkpoint2",
+	"name": "Arrow4",
 	"plugin-id": "Sprite",
-	"sid": 102034627813345,
+	"sid": 610783201687927,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3386216,
+						"imageSpriteId": 5927680,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 397956962012518,
+				"sid": 109746243974957,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

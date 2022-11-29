@@ -162,12 +162,9 @@
 			"BackererButton",
 			"Bar",
 			"Arrow",
-			"P1Checkpoint2",
-			"P2Checkpoint2",
 			"flower",
 			"Tree",
 			"Splash",
-			"Arrow2",
 			"Space",
 			"Wave",
 			"Island",
@@ -177,7 +174,10 @@
 			"Car1Confirm",
 			"Car2Confirm",
 			"TrackConfirmation",
-			"Incase"
+			"Incase",
+			"Arrow2",
+			"Arrow3",
+			"Arrow4"
 		],
 		"subfolders": []
 	},
@@ -213,72 +213,7 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [
-				{
-					"name": "GetFree.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 946776097442119,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "NoSleep.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 368254622067215,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "BulletWithButterflyWings.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 214395644329708,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "BeforeIForget.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 457487765514381,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "HashPipe.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 874783469645609,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "GoldOnTheCeiling.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 402252793864923,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "Rodeo.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 545088386544171,
-					"file-info": {
-						"purpose": "none"
-					}
-				},
-				{
-					"name": "LittleSister.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 477442228998660,
-					"file-info": {
-						"purpose": "none"
-					}
-				}
-			],
+			"items": [],
 			"subfolders": []
 		},
 		"music": {
