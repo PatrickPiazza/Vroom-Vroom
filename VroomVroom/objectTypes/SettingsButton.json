@@ -1,7 +1,7 @@
 {
-	"name": "ExitButton",
+	"name": "SettingsButton",
 	"plugin-id": "Button",
-	"sid": 460132513201695,
+	"sid": 895794781370255,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": []

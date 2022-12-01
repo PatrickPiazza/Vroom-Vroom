@@ -92,15 +92,6 @@
 				},
 				{
 					"id": "set-css-style",
-					"objectClass": "ExitButton",
-					"sid": 442195662215548,
-					"parameters": {
-						"property-name": "\"font-size\"",
-						"value": "\"1em\""
-					}
-				},
-				{
-					"id": "set-css-style",
 					"objectClass": "Track1Button",
 					"sid": 327756079377746,
 					"parameters": {
@@ -139,6 +130,15 @@
 					"id": "set-css-style",
 					"objectClass": "NextextButton",
 					"sid": 801115309810191,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "SettingsButton",
+					"sid": 967478313910783,
 					"parameters": {
 						"property-name": "\"font-size\"",
 						"value": "\"1em\""
@@ -254,24 +254,6 @@
 				}
 			],
 			"sid": 472219752019931
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-clicked",
-					"objectClass": "ExitButton",
-					"sid": 898745264437171
-				}
-			],
-			"actions": [
-				{
-					"id": "close",
-					"objectClass": "Browser",
-					"sid": 194332658363772
-				}
-			],
-			"sid": 352280866136954
 		},
 		{
 			"eventType": "group",
@@ -440,9 +422,9 @@
 						{
 							"id": "set-text",
 							"objectClass": "TrackDescription",
-							"sid": 236558506367251,
+							"sid": 446744035659110,
 							"parameters": {
-								"text": "\"The simplest designed track yet, it's just a f**king circle! But, not only is it much longer lap-wise, but it's in SPAAAAAAAAAAAAAAAAAAAAACE!!11!!1! (50 laps)\""
+								"text": "\"The simplest designed track yet, it's just a f**king circle! But, not only is it much longer lap-wise, but it's in SPAAAAAAAAAAAAAAAAAAAAACE!!11!!1! (25 laps)\""
 							}
 						},
 						{
@@ -1221,6 +1203,48 @@
 				}
 			],
 			"sid": 300820641332239
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "SettingsButton",
+					"sid": 257188833820169
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 740509851261484,
+					"parameters": {
+						"layout": "Settings"
+					}
+				}
+			],
+			"sid": 981888877736198
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 676301711604049,
+					"parameters": {
+						"key": 27
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "close",
+					"objectClass": "Browser",
+					"sid": 334090674368092
+				}
+			],
+			"sid": 648508594680032
 		}
 	],
 	"sid": 556985430566549

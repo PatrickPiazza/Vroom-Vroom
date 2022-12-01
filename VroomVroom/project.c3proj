@@ -79,6 +79,22 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "sliderbar",
+			"name": "Slider bar",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "List",
+			"name": "List",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "bound",
 			"name": "Bound to layout",
@@ -128,7 +144,6 @@
 			"wp",
 			"Title",
 			"StartButton",
-			"ExitButton",
 			"MainOrigin",
 			"SelectText1",
 			"Track1Button",
@@ -177,7 +192,16 @@
 			"Incase",
 			"Arrow2",
 			"Arrow3",
-			"Arrow4"
+			"Arrow4",
+			"Arrow4B",
+			"Arrow3B",
+			"Arrow2B",
+			"Arrow1B",
+			"SettingsButton",
+			"SettingsBanner",
+			"Soundsetting",
+			"Volume",
+			"FunMenu"
 		],
 		"subfolders": []
 	},
@@ -193,7 +217,8 @@
 			"Menu",
 			"Track2",
 			"Track3",
-			"Track4"
+			"Track4",
+			"Settings"
 		],
 		"subfolders": []
 	},
@@ -203,7 +228,8 @@
 			"MenuCode",
 			"Track2Code",
 			"Track3Code",
-			"Track4Code"
+			"Track4Code",
+			"SettingsCode"
 		],
 		"subfolders": []
 	},

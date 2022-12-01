@@ -130,39 +130,8 @@
 					"world": {
 						"x": 1600,
 						"y": 992,
-						"width": 471,
-						"height": 146,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "ExitButton",
-					"properties": {
-						"type": "button",
-						"text": "GET ME OUTTA HERE",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": false,
-						"checked": false,
-						"id": "",
-						"class": ""
-					},
-					"uid": 28,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1600,
-						"y": 1184,
-						"width": 471,
-						"height": 146,
+						"width": 480,
+						"height": 160,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -1422,6 +1391,37 @@
 						],
 						"angle": 0,
 						"zElevation": 0
+					}
+				},
+				{
+					"type": "SettingsButton",
+					"properties": {
+						"type": "button",
+						"text": "SETTINGS",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": false,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 108,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1600,
+						"y": 1216,
+						"width": 480,
+						"height": 160,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
 					}
 				}
 			],

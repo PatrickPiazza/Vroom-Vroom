@@ -1,0 +1,28 @@
+{
+	"name": "SettingsCode",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 922460513124917
+				}
+			],
+			"actions": [
+				{
+					"id": "set-css-style",
+					"objectClass": "FunMenu",
+					"sid": 434106435650871,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				}
+			],
+			"sid": 686681459623302
+		}
+	],
+	"sid": 445961419060712
+}

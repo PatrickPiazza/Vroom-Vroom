@@ -1070,11 +1070,35 @@
 							}
 						},
 						{
-							"id": "set-visible",
-							"objectClass": "P1Checkpoint",
-							"sid": 774551751566801,
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow",
+							"sid": 508499252609383,
 							"parameters": {
-								"visibility": "visible"
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow2",
+							"sid": 501705351180968,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow3",
+							"sid": 256716973372609,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow4",
+							"sid": 981620704335535,
+							"parameters": {
+								"collisions": "enabled"
 							}
 						}
 					],
@@ -1225,15 +1249,397 @@
 							}
 						},
 						{
-							"id": "set-visible",
-							"objectClass": "P1Checkpoint",
-							"sid": 955193921804763,
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow",
+							"sid": 187441495694828,
 							"parameters": {
-								"visibility": "visible"
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow2",
+							"sid": 573804421081499,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow3",
+							"sid": 540248941793409,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow4",
+							"sid": 694882777658636,
+							"parameters": {
+								"collisions": "enabled"
 							}
 						}
 					],
 					"sid": 380042444577066
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Car1",
+							"sid": 562699696111501,
+							"parameters": {
+								"object": "Arrow3"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car1",
+							"sid": 669249055421432,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"comparison": 0,
+								"value": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Car1",
+							"sid": 661730955037243,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow3",
+							"sid": 546948759929608,
+							"parameters": {
+								"collisions": "disabled"
+							}
+						}
+					],
+					"sid": 260972633384679
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Car1",
+							"sid": 613272690403350,
+							"parameters": {
+								"object": "Arrow3"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car1",
+							"sid": 971575479581820,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"comparison": 0,
+								"value": "2"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Car1",
+							"sid": 436772683214897,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car1",
+							"sid": 659132334814935,
+							"behaviorType": "Car",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 854847581721334,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Car1",
+							"sid": 668671105505278,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car1",
+							"sid": 827728731528827,
+							"behaviorType": "Car",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Car1",
+							"sid": 440574383787017,
+							"behaviorType": "Car",
+							"parameters": {
+								"speed": "0"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "Car1",
+							"sid": 506032890011445,
+							"parameters": {
+								"angle": "270"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Car1",
+							"sid": 762090127445877,
+							"parameters": {
+								"x": "2875",
+								"y": "1757"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Car1",
+							"sid": 604779287556544,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow",
+							"sid": 115915615466807,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow2",
+							"sid": 733466241418759,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow3",
+							"sid": 817128628242282,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow4",
+							"sid": 266229101591527,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						}
+					],
+					"sid": 349959730766899
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Car1",
+							"sid": 942656301314053,
+							"parameters": {
+								"object": "Arrow4"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car1",
+							"sid": 670166888332514,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"comparison": 0,
+								"value": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Car1",
+							"sid": 690198691147526,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow4",
+							"sid": 288682594101489,
+							"parameters": {
+								"collisions": "disabled"
+							}
+						}
+					],
+					"sid": 780719790841829
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Car1",
+							"sid": 687822831813930,
+							"parameters": {
+								"object": "Arrow4"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car1",
+							"sid": 104297990877321,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"comparison": 0,
+								"value": "3"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Car1",
+							"sid": 920011650483229,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car1",
+							"sid": 317934335781891,
+							"behaviorType": "Car",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 770656319211890,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Car1",
+							"sid": 303173658290807,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car1",
+							"sid": 521864936026731,
+							"behaviorType": "Car",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Car1",
+							"sid": 913181910332931,
+							"behaviorType": "Car",
+							"parameters": {
+								"speed": "0"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "Car1",
+							"sid": 113427130759600,
+							"parameters": {
+								"angle": "270"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Car1",
+							"sid": 990867262762388,
+							"parameters": {
+								"x": "2875",
+								"y": "1757"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Car1",
+							"sid": 952851020723841,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow",
+							"sid": 394544882471945,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow2",
+							"sid": 314953573860593,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow3",
+							"sid": 695096953482914,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow4",
+							"sid": 474204894438610,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						}
+					],
+					"sid": 191512576742060
 				},
 				{
 					"eventType": "block",
@@ -1284,14 +1690,6 @@
 							"parameters": {
 								"instance-variable": "Checkpoints",
 								"value": "0"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "P1Checkpoint",
-							"sid": 441818967578863,
-							"parameters": {
-								"visibility": "visible"
 							}
 						},
 						{
@@ -1425,10 +1823,18 @@
 						{
 							"id": "set-boolean-eventvar",
 							"objectClass": "System",
-							"sid": 857520266560426,
+							"sid": 513769477450038,
 							"parameters": {
-								"variable": "Track1Raced",
+								"variable": "Track3Raced",
 								"value": "true"
+							}
+						},
+						{
+							"id": "save",
+							"objectClass": "System",
+							"sid": 233042375826303,
+							"parameters": {
+								"slot": "\"mysave\""
 							}
 						},
 						{
@@ -1441,6 +1847,722 @@
 						}
 					],
 					"sid": 671058416742328
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Car2",
+							"sid": 236181074779272,
+							"parameters": {
+								"object": "Arrow1B"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car2",
+							"sid": 899900558509928,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Car2",
+							"sid": 674667738685643,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow1B",
+							"sid": 831351769413264,
+							"parameters": {
+								"collisions": "disabled"
+							}
+						}
+					],
+					"sid": 858362042323067
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Car2",
+							"sid": 664601122532209,
+							"parameters": {
+								"object": "Arrow1B"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car2",
+							"sid": 395396954358080,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"comparison": 0,
+								"value": "0"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Car2",
+							"sid": 242158327054382,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car2",
+							"sid": 953254329417274,
+							"behaviorType": "Car",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 449534452129183,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Car2",
+							"sid": 483648242157147,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car2",
+							"sid": 949345659150995,
+							"behaviorType": "Car",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Car2",
+							"sid": 922721576746340,
+							"behaviorType": "Car",
+							"parameters": {
+								"speed": "0"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "Car2",
+							"sid": 433768920031605,
+							"parameters": {
+								"angle": "270"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Car2",
+							"sid": 843327175782515,
+							"parameters": {
+								"x": "2747",
+								"y": "1757"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Car2",
+							"sid": 415430995110338,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow1B",
+							"sid": 412809918335810,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow2B",
+							"sid": 782607246174677,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow3B",
+							"sid": 257682974394060,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow4B",
+							"sid": 226092019857937,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						}
+					],
+					"sid": 132295751342768
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Car2",
+							"sid": 125974574139759,
+							"parameters": {
+								"object": "Arrow2B"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car2",
+							"sid": 205228980371622,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"comparison": 0,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Car2",
+							"sid": 914876003117507,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow2B",
+							"sid": 382006619168134,
+							"parameters": {
+								"collisions": "disabled"
+							}
+						}
+					],
+					"sid": 286401733295628
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Car2",
+							"sid": 209585635053280,
+							"parameters": {
+								"object": "Arrow2B"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car2",
+							"sid": 872227732286193,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"comparison": 0,
+								"value": "1"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Car2",
+							"sid": 975242547199063,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car2",
+							"sid": 638866385178159,
+							"behaviorType": "Car",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 707577827779176,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Car2",
+							"sid": 441440999214370,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car2",
+							"sid": 421790072330323,
+							"behaviorType": "Car",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Car2",
+							"sid": 237154121917230,
+							"behaviorType": "Car",
+							"parameters": {
+								"speed": "0"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "Car2",
+							"sid": 713998150820367,
+							"parameters": {
+								"angle": "270"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Car2",
+							"sid": 176905572538426,
+							"parameters": {
+								"x": "2747",
+								"y": "1757"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Car2",
+							"sid": 342462062816780,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow1B",
+							"sid": 965715338507687,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow2B",
+							"sid": 769336664060334,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow3B",
+							"sid": 455786473614041,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow4B",
+							"sid": 508857046952133,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						}
+					],
+					"sid": 412408576876897
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Car2",
+							"sid": 966829007422536,
+							"parameters": {
+								"object": "Arrow3B"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car2",
+							"sid": 565856625041764,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"comparison": 0,
+								"value": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Car2",
+							"sid": 543217782450148,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow3B",
+							"sid": 472530510849643,
+							"parameters": {
+								"collisions": "disabled"
+							}
+						}
+					],
+					"sid": 942704026995020
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Car2",
+							"sid": 107303717481143,
+							"parameters": {
+								"object": "Arrow3B"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car2",
+							"sid": 851009991887335,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"comparison": 0,
+								"value": "2"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Car2",
+							"sid": 310530590373114,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car2",
+							"sid": 330269094163500,
+							"behaviorType": "Car",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 923150101025241,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Car2",
+							"sid": 837068148426974,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car2",
+							"sid": 315479526627810,
+							"behaviorType": "Car",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Car2",
+							"sid": 140016957039960,
+							"behaviorType": "Car",
+							"parameters": {
+								"speed": "0"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "Car2",
+							"sid": 166253760906863,
+							"parameters": {
+								"angle": "270"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Car2",
+							"sid": 215085241069880,
+							"parameters": {
+								"x": "2747",
+								"y": "1757"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Car2",
+							"sid": 393829745600787,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow1B",
+							"sid": 483479710899050,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow2B",
+							"sid": 343092528577475,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow3B",
+							"sid": 490074538261052,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow4B",
+							"sid": 820852992981266,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						}
+					],
+					"sid": 605785617109754
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Car2",
+							"sid": 560873199543249,
+							"parameters": {
+								"object": "Arrow4B"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car2",
+							"sid": 156801615894944,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"comparison": 0,
+								"value": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Car2",
+							"sid": 801497174913706,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow4B",
+							"sid": 120161292137193,
+							"parameters": {
+								"collisions": "disabled"
+							}
+						}
+					],
+					"sid": 570852075057078
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Car2",
+							"sid": 210881040349000,
+							"parameters": {
+								"object": "Arrow4B"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car2",
+							"sid": 770806487038225,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"comparison": 0,
+								"value": "3"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Car2",
+							"sid": 777007239145889,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car2",
+							"sid": 489916379076731,
+							"behaviorType": "Car",
+							"parameters": {
+								"state": "disabled"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 842992337253999,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Car2",
+							"sid": 148901656132891,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-enabled",
+							"objectClass": "Car2",
+							"sid": 292040122913807,
+							"behaviorType": "Car",
+							"parameters": {
+								"state": "enabled"
+							}
+						},
+						{
+							"id": "set-speed",
+							"objectClass": "Car2",
+							"sid": 593939608145704,
+							"behaviorType": "Car",
+							"parameters": {
+								"speed": "0"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "Car2",
+							"sid": 102355421587811,
+							"parameters": {
+								"angle": "270"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Car2",
+							"sid": 135832757046820,
+							"parameters": {
+								"x": "2747",
+								"y": "1757"
+							}
+						},
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Car2",
+							"sid": 186542678759543,
+							"parameters": {
+								"instance-variable": "Checkpoints",
+								"value": "0"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow1B",
+							"sid": 378144617539164,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow2B",
+							"sid": 679760784320903,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow3B",
+							"sid": 409829386304049,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						},
+						{
+							"id": "set-collisions-enabled",
+							"objectClass": "Arrow4B",
+							"sid": 702566365105822,
+							"parameters": {
+								"collisions": "enabled"
+							}
+						}
+					],
+					"sid": 906295809951061
 				},
 				{
 					"eventType": "block",
@@ -1494,41 +2616,33 @@
 							}
 						},
 						{
-							"id": "set-visible",
-							"objectClass": "P2Checkpoint",
-							"sid": 761737643938080,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
 							"id": "set-collisions-enabled",
-							"objectClass": "Arrow",
-							"sid": 178456020352226,
+							"objectClass": "Arrow1B",
+							"sid": 899601328087003,
 							"parameters": {
 								"collisions": "enabled"
 							}
 						},
 						{
 							"id": "set-collisions-enabled",
-							"objectClass": "Arrow2",
-							"sid": 627477985881305,
+							"objectClass": "Arrow2B",
+							"sid": 444204180524651,
 							"parameters": {
 								"collisions": "enabled"
 							}
 						},
 						{
 							"id": "set-collisions-enabled",
-							"objectClass": "Arrow3",
-							"sid": 717969599982790,
+							"objectClass": "Arrow3B",
+							"sid": 697834929771765,
 							"parameters": {
 								"collisions": "enabled"
 							}
 						},
 						{
 							"id": "set-collisions-enabled",
-							"objectClass": "Arrow4",
-							"sid": 474054744231744,
+							"objectClass": "Arrow4B",
+							"sid": 598056272354371,
 							"parameters": {
 								"collisions": "enabled"
 							}
@@ -1632,10 +2746,18 @@
 						{
 							"id": "set-boolean-eventvar",
 							"objectClass": "System",
-							"sid": 468824889829791,
+							"sid": 296762857502460,
 							"parameters": {
-								"variable": "Track1Raced",
+								"variable": "Track3Raced",
 								"value": "true"
+							}
+						},
+						{
+							"id": "save",
+							"objectClass": "System",
+							"sid": 163848893976666,
+							"parameters": {
+								"slot": "\"mysave\""
 							}
 						},
 						{
