@@ -2,6 +2,16 @@
 	"name": "SettingsCode",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "BadClicks",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 745521849518264
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -19,9 +29,197 @@
 						"property-name": "\"font-size\"",
 						"value": "\"1em\""
 					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "OutButton",
+					"sid": 940068405152241,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "SwapButton",
+					"sid": 690243743284374,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				},
+				{
+					"id": "add-item",
+					"objectClass": "FunMenu",
+					"sid": 579107522768978,
+					"parameters": {
+						"text": "\"Laughably Bad\""
+					}
+				},
+				{
+					"id": "add-item",
+					"objectClass": "FunMenu",
+					"sid": 353335942590323,
+					"parameters": {
+						"text": "\"Gaming lol\""
+					}
+				},
+				{
+					"id": "add-item",
+					"objectClass": "FunMenu",
+					"sid": 890065588282538,
+					"parameters": {
+						"text": "\"KAWAII\""
+					}
+				},
+				{
+					"id": "add-item",
+					"objectClass": "FunMenu",
+					"sid": 158696775517911,
+					"parameters": {
+						"text": "\"Stupid\""
+					}
+				},
+				{
+					"id": "add-item",
+					"objectClass": "FunMenu",
+					"sid": 641819079653215,
+					"parameters": {
+						"text": "\"Kooky\""
+					}
+				},
+				{
+					"id": "add-item",
+					"objectClass": "FunMenu",
+					"sid": 122208436016492,
+					"parameters": {
+						"text": "\"BaBaBaBaBaaaaaaaBa\""
+					}
+				},
+				{
+					"id": "add-item",
+					"objectClass": "FunMenu",
+					"sid": 936148577112402,
+					"parameters": {
+						"text": "\"Floppy\""
+					}
 				}
 			],
 			"sid": 686681459623302
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-selected-item-text",
+					"objectClass": "FunMenu",
+					"sid": 153212678326263,
+					"parameters": {
+						"text-to-compare": "\"KAWAII\"",
+						"case-sensitivity": "case-sensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 512062689737189,
+					"parameters": {
+						"variable": "Track1Raced",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 320722118945175,
+					"parameters": {
+						"variable": "Track2Raced",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 827061872092675,
+					"parameters": {
+						"variable": "Track3Raced",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 394690362132562,
+					"parameters": {
+						"variable": "Track4Raced",
+						"value": "true"
+					}
+				},
+				{
+					"id": "save",
+					"objectClass": "System",
+					"sid": 442427186046951,
+					"parameters": {
+						"slot": "\"mysave\""
+					}
+				}
+			],
+			"sid": 640443653878598
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "OutButton",
+					"sid": 511708340421726
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 815339641196144,
+					"parameters": {
+						"layout": "Menu"
+					}
+				}
+			],
+			"sid": 189123876867094
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "WipeButton",
+					"sid": 785077162800447
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 302419331236452,
+					"parameters": {
+						"variable": "BadClicks",
+						"comparison": 2,
+						"value": "68"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 798799847751654,
+					"parameters": {
+						"variable": "BadClicks",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 721055858437794
 		}
 	],
 	"sid": 445961419060712

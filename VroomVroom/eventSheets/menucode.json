@@ -72,6 +72,16 @@
 			"sid": 421106258802150
 		},
 		{
+			"eventType": "variable",
+			"name": "ControlsSwapped",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 537641580146549
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -254,6 +264,18 @@
 				}
 			],
 			"sid": 472219752019931
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 288211617212407
+				}
+			],
+			"actions": [],
+			"sid": 784659879310242
 		},
 		{
 			"eventType": "group",

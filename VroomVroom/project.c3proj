@@ -95,6 +95,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "video",
+			"name": "Video",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "bound",
 			"name": "Bound to layout",
@@ -201,7 +209,17 @@
 			"SettingsBanner",
 			"Soundsetting",
 			"Volume",
-			"FunMenu"
+			"FunMenu",
+			"FunType",
+			"OutButton",
+			"P1ControlsText",
+			"P2ControlsText",
+			"Sprite",
+			"Sprite2",
+			"MoveText",
+			"SwapButton",
+			"WipeButton",
+			"Video"
 		],
 		"subfolders": []
 	},
@@ -218,7 +236,8 @@
 			"Track2",
 			"Track3",
 			"Track4",
-			"Settings"
+			"Settings",
+			"Secret"
 		],
 		"subfolders": []
 	},
@@ -229,7 +248,8 @@
 			"Track2Code",
 			"Track3Code",
 			"Track4Code",
-			"SettingsCode"
+			"SettingsCode",
+			"SecretCode"
 		],
 		"subfolders": []
 	},

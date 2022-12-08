@@ -49,79 +49,6 @@
 					}
 				},
 				{
-					"type": "Soundsetting",
-					"properties": {
-						"value": 75,
-						"minimum": 0,
-						"maximum": 100,
-						"step": 1,
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"id": "",
-						"class": ""
-					},
-					"uid": 112,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1492,
-						"y": 671,
-						"width": 942,
-						"height": 170,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "Volume",
-					"properties": {
-						"text": "Volume",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 69.50000000000001,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 113,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1122,
-						"y": 686,
-						"width": 516,
-						"height": 252,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "FunMenu",
 					"properties": {
 						"items": "Default\nInsane\nKwwwazie",
@@ -138,10 +65,340 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1527,
-						"y": 1123,
-						"width": 893,
-						"height": 174,
+						"x": 1449,
+						"y": 1606,
+						"width": 328,
+						"height": 45,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "FunType",
+					"properties": {
+						"text": "Fun Type",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 50.500000000000014,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 190,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1105,
+						"y": 1579,
+						"width": 347,
+						"height": 86,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "OutButton",
+					"properties": {
+						"type": "button",
+						"text": "<--- Back",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": false,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 191,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 142,
+						"y": 117,
+						"width": 319,
+						"height": 140,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "P1ControlsText",
+					"properties": {
+						"text": "P1 Controls",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 68.6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 192,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 111,
+						"y": 839,
+						"width": 574,
+						"height": 131,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "P2ControlsText",
+					"properties": {
+						"text": "P2 Controls",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 68.6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 193,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 2259,
+						"y": 829,
+						"width": 488,
+						"height": 227,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 195,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1033,
+						"y": 884,
+						"width": 619.0549248653143,
+						"height": 619.0549248653143,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 196,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 3148,
+						"y": 892,
+						"width": 619.054925,
+						"height": 619.054925,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "MoveText",
+					"properties": {
+						"text": "Drive",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 62.30000000000007,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 197,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 934,
+						"y": 1195,
+						"width": 210,
+						"height": 116,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "MoveText",
+					"properties": {
+						"text": "Drive",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 62.30000000000007,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 198,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 3037,
+						"y": 1204,
+						"width": 210,
+						"height": 116,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WipeButton",
+					"properties": {
+						"type": "button",
+						"text": "Do Not Click This Button",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 112,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 2146,
+						"y": 1610,
+						"width": 292,
+						"height": 71,
 						"originX": 0,
 						"originY": 0,
 						"color": [
