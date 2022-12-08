@@ -267,7 +267,16 @@
 			"subfolders": []
 		},
 		"video": {
-			"items": [],
+			"items": [
+				{
+					"name": "videoplayback.mp4",
+					"type": "video/mp4",
+					"sid": 165774992046385,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"font": {

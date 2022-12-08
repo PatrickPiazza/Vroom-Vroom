@@ -41,8 +41,8 @@
 				},
 				{
 					"id": "set-css-style",
-					"objectClass": "SwapButton",
-					"sid": 690243743284374,
+					"objectClass": "WipeButton",
+					"sid": 819793111764487,
 					"parameters": {
 						"property-name": "\"font-size\"",
 						"value": "\"1em\""
@@ -220,6 +220,37 @@
 				}
 			],
 			"sid": 721055858437794
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "WipeButton",
+					"sid": 739055643015863
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 147330680572950,
+					"parameters": {
+						"variable": "BadClicks",
+						"comparison": 5,
+						"value": "68"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 546097761722802,
+					"parameters": {
+						"layout": "Secret"
+					}
+				}
+			],
+			"sid": 456553129688589
 		}
 	],
 	"sid": 445961419060712
