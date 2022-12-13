@@ -219,7 +219,9 @@
 			"MoveText",
 			"SwapButton",
 			"WipeButton",
-			"Video"
+			"Video",
+			"CreditsText",
+			"CreditText"
 		],
 		"subfolders": []
 	},
