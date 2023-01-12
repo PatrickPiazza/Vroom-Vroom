@@ -397,7 +397,7 @@
 					"world": {
 						"x": 2146,
 						"y": 1610,
-						"width": 634,
+						"width": 550,
 						"height": 71,
 						"originX": 0,
 						"originY": 0,
@@ -412,10 +412,10 @@
 				{
 					"type": "CreditsText",
 					"properties": {
-						"text": "Credits:",
+						"text": "Credits",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 48.10000000000002,
+						"size": 80,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -435,10 +435,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1627,
-						"y": 1829,
-						"width": 222,
-						"height": 90,
+						"x": 2942,
+						"y": 1715,
+						"width": 362,
+						"height": 154,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -452,12 +452,12 @@
 					}
 				},
 				{
-					"type": "CreditText",
+					"type": "Credit",
 					"properties": {
-						"text": "Literally Everything - Patrick Piazza",
+						"text": "Patrick \"RustyMew\" Piazza - Literally Everything",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 40,
+						"size": 42.20000000000002,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -477,10 +477,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1870,
-						"y": 1836,
-						"width": 910,
-						"height": 71,
+						"x": 2551,
+						"y": 1900,
+						"width": 1233,
+						"height": 108,
 						"originX": 0,
 						"originY": 0,
 						"color": [
