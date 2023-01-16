@@ -171,6 +171,18 @@
 						"animation": "\"NA\"",
 						"from": "beginning"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 105599417831280,
+					"parameters": {
+						"audio-file": "M_Title",
+						"loop": "looping",
+						"volume": "-5",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 403956482964370
@@ -535,6 +547,18 @@
 								"animation": "\"IdiotMobile\"",
 								"from": "beginning"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 444856119230827,
+							"parameters": {
+								"audio-file": "SE_IdiotMobile",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 118617838048666
@@ -574,6 +598,18 @@
 							"parameters": {
 								"animation": "\"IdiotMobile\"",
 								"from": "beginning"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 264199721001057,
+							"parameters": {
+								"audio-file": "SE_IdiotMobile",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -615,6 +651,18 @@
 								"animation": "\"Zoomy McVroomy\"",
 								"from": "beginning"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 152995115374976,
+							"parameters": {
+								"audio-file": "SE_ZoomyMcVroomy",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 322794329930626
@@ -654,6 +702,18 @@
 							"parameters": {
 								"animation": "\"Zoomy McVroomy\"",
 								"from": "beginning"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 417022537243417,
+							"parameters": {
+								"audio-file": "SE_ZoomyMcVroomy",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -695,6 +755,18 @@
 								"animation": "\"Fart Engine\"",
 								"from": "beginning"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 165576698877017,
+							"parameters": {
+								"audio-file": "SE_FartEngine",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 729670341640660
@@ -734,6 +806,18 @@
 							"parameters": {
 								"animation": "\"Fart Engine\"",
 								"from": "beginning"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 140239606218787,
+							"parameters": {
+								"audio-file": "SE_FartEngine",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -775,6 +859,18 @@
 								"animation": "\"Beep Beep Beep Beep\"",
 								"from": "beginning"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 447248615147123,
+							"parameters": {
+								"audio-file": "SE_BeepBeepBeepBeep",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 700426417669803
@@ -814,6 +910,18 @@
 							"parameters": {
 								"animation": "\"Beep Beep Beep Beep\"",
 								"from": "beginning"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 647162499545148,
+							"parameters": {
+								"audio-file": "SE_BeepBeepBeepBeep",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -855,6 +963,18 @@
 								"animation": "\"NANI\"",
 								"from": "beginning"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 166495057285757,
+							"parameters": {
+								"audio-file": "SE_NANI",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 992661675797649
@@ -894,6 +1014,18 @@
 							"parameters": {
 								"animation": "\"NANI\"",
 								"from": "beginning"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 274343794024184,
+							"parameters": {
+								"audio-file": "SE_NANI",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
 							}
 						}
 					],
@@ -1236,6 +1368,11 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 707503620039614
+				},
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",

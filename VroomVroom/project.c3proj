@@ -221,7 +221,8 @@
 			"WipeButton",
 			"Video",
 			"CreditsText",
-			"Credit"
+			"Credit",
+			"Credit2"
 		],
 		"subfolders": []
 	},
@@ -261,7 +262,64 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "M_Title.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 961329269568275,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "M_Factory.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 700211565577818,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SE_IdiotMobile.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 444621627692980,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SE_ZoomyMcVroomy.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 260612958267325,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SE_FartEngine.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 632390347593136,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SE_BeepBeepBeepBeep.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 913507881555712,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SE_NANI.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 754802770922970,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {

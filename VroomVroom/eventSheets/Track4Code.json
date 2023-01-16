@@ -12,6 +12,18 @@
 			],
 			"actions": [
 				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 547311644247596,
+					"parameters": {
+						"audio-file": "M_Factory",
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
 					"id": "set-text",
 					"objectClass": "PauseText",
 					"sid": 738390540525314,
@@ -1307,6 +1319,11 @@
 					],
 					"actions": [
 						{
+							"id": "stop-all",
+							"objectClass": "Audio",
+							"sid": 432143086732296
+						},
+						{
 							"id": "add-to-instvar",
 							"objectClass": "Car1",
 							"sid": 514803015782473,
@@ -1489,6 +1506,11 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "stop-all",
+							"objectClass": "Audio",
+							"sid": 823201010937384
+						},
 						{
 							"id": "add-to-instvar",
 							"objectClass": "Car2",
