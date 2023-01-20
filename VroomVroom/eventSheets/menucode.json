@@ -246,6 +246,18 @@
 			],
 			"actions": [
 				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 484321319202823,
+					"parameters": {
+						"audio-file": "SE_Menu",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
 					"id": "scroll-to-object",
 					"objectClass": "System",
 					"sid": 276867815888400,
@@ -266,6 +278,18 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 176285346973385,
+					"parameters": {
+						"audio-file": "SE_Menu",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
 				{
 					"id": "scroll-to-object",
 					"objectClass": "System",
@@ -306,6 +330,18 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 113121906187241,
+							"parameters": {
+								"audio-file": "SE_GreenOval",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
@@ -353,6 +389,18 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 348811925501107,
+							"parameters": {
+								"audio-file": "SE_HotWater",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
 							"sid": 928733626518272,
@@ -398,6 +446,18 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 846145635067134,
+							"parameters": {
+								"audio-file": "SE_FactoryFactory",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
 						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
@@ -445,6 +505,18 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 826972322275115,
+							"parameters": {
+								"audio-file": "SE_SharpSpace",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "set-eventvar-value",
 							"objectClass": "System",
 							"sid": 330640006944939,
@@ -490,6 +562,18 @@
 						}
 					],
 					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 254979835067433,
+							"parameters": {
+								"audio-file": "SE_Menu",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
 						{
 							"id": "scroll-to-object",
 							"objectClass": "System",
@@ -1087,6 +1171,18 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 698194004669893,
+							"parameters": {
+								"audio-file": "SE_Menu",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "scroll-to-object",
 							"objectClass": "System",
 							"sid": 832818118438892,
@@ -1180,6 +1276,18 @@
 					],
 					"actions": [
 						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 647575003971286,
+							"parameters": {
+								"audio-file": "SE_Menu",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
 							"id": "scroll-to-object",
 							"objectClass": "System",
 							"sid": 301818698395458,
@@ -1203,6 +1311,18 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 548893062041960,
+					"parameters": {
+						"audio-file": "SE_Menu",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
 				{
 					"id": "scroll-to-object",
 					"objectClass": "System",

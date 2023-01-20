@@ -318,6 +318,46 @@
 					"file-info": {
 						"purpose": "none"
 					}
+				},
+				{
+					"name": "SE_Menu.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 640799455771927,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SE_GreenOval.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 927085954554353,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SE_HotWater.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 642976260955878,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SE_FactoryFactory.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 307453848314281,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SE_SharpSpace.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 559389863112515,
+					"file-info": {
+						"purpose": "none"
+					}
 				}
 			],
 			"subfolders": []
