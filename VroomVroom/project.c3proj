@@ -375,6 +375,30 @@
 					"file-info": {
 						"purpose": "none"
 					}
+				},
+				{
+					"name": "SE_Lap.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 365550783405591,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SE_Finish.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 866329498639426,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SE_Applause.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 566565069454260,
+					"file-info": {
+						"purpose": "none"
+					}
 				}
 			],
 			"subfolders": []

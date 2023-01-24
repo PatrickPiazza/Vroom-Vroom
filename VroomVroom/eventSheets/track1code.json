@@ -1307,6 +1307,18 @@
 							"parameters": {
 								"visibility": "visible"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 826477634066184,
+							"parameters": {
+								"audio-file": "SE_Lap",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 766805494580536
@@ -1348,6 +1360,30 @@
 							"id": "stop-all",
 							"objectClass": "Audio",
 							"sid": 786315907902546
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 494686458294235,
+							"parameters": {
+								"audio-file": "SE_Finish",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 147897936552063,
+							"parameters": {
+								"audio-file": "SE_Applause",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
 						},
 						{
 							"id": "add-to-instvar",
@@ -1404,9 +1440,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 913216576627816,
+							"sid": 619533432011019,
 							"parameters": {
-								"seconds": "2.0"
+								"seconds": "3.0"
 							}
 						},
 						{
@@ -1495,6 +1531,18 @@
 							"parameters": {
 								"visibility": "visible"
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 905307052129456,
+							"parameters": {
+								"audio-file": "SE_Lap",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 406330571804067
@@ -1536,6 +1584,30 @@
 							"id": "stop-all",
 							"objectClass": "Audio",
 							"sid": 121962543962098
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 850233816859906,
+							"parameters": {
+								"audio-file": "SE_Finish",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 137665519384468,
+							"parameters": {
+								"audio-file": "SE_Applause",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
 						},
 						{
 							"id": "add-to-instvar",
@@ -1592,9 +1664,9 @@
 						{
 							"id": "wait",
 							"objectClass": "System",
-							"sid": 642736633918947,
+							"sid": 432331932266472,
 							"parameters": {
-								"seconds": "2.0"
+								"seconds": "3.0"
 							}
 						},
 						{
