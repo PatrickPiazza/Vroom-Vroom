@@ -12,21 +12,9 @@
 			],
 			"actions": [
 				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 547311644247596,
-					"parameters": {
-						"audio-file": "M_Factory",
-						"loop": "looping",
-						"volume": "0",
-						"stereo-pan": "0",
-						"tag-optional": "\"\""
-					}
-				},
-				{
 					"id": "set-text",
 					"objectClass": "PauseText",
-					"sid": 738390540525314,
+					"sid": 981157538265223,
 					"parameters": {
 						"text": "\"\""
 					}
@@ -34,7 +22,7 @@
 				{
 					"id": "set-enabled",
 					"objectClass": "Car1",
-					"sid": 206514520191395,
+					"sid": 869808861145458,
 					"behaviorType": "Car",
 					"parameters": {
 						"state": "disabled"
@@ -43,7 +31,7 @@
 				{
 					"id": "set-enabled",
 					"objectClass": "Car2",
-					"sid": 374133145539438,
+					"sid": 917153584629298,
 					"behaviorType": "Car",
 					"parameters": {
 						"state": "disabled"
@@ -52,15 +40,27 @@
 				{
 					"id": "set-text",
 					"objectClass": "CountdownText",
-					"sid": 943208110719899,
+					"sid": 154596690809051,
 					"parameters": {
 						"text": "\"3\""
 					}
 				},
 				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 942037298106248,
+					"parameters": {
+						"audio-file": "SE_CountdownA",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 547578892781693,
+					"sid": 769349120541895,
 					"parameters": {
 						"seconds": "1.0"
 					}
@@ -68,15 +68,27 @@
 				{
 					"id": "set-text",
 					"objectClass": "CountdownText",
-					"sid": 378889770863715,
+					"sid": 937890406997734,
 					"parameters": {
 						"text": "\"2\""
 					}
 				},
 				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 812517374216238,
+					"parameters": {
+						"audio-file": "SE_CountdownA",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 390449479746487,
+					"sid": 697433166079838,
 					"parameters": {
 						"seconds": "1.0"
 					}
@@ -84,15 +96,27 @@
 				{
 					"id": "set-text",
 					"objectClass": "CountdownText",
-					"sid": 853944287355403,
+					"sid": 164674006447099,
 					"parameters": {
 						"text": "\"1\""
 					}
 				},
 				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 138412944632327,
+					"parameters": {
+						"audio-file": "SE_CountdownA",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 370857419471473,
+					"sid": 881748709596239,
 					"parameters": {
 						"seconds": "1.0"
 					}
@@ -100,15 +124,39 @@
 				{
 					"id": "set-text",
 					"objectClass": "CountdownText",
-					"sid": 511335930943223,
+					"sid": 827036847844766,
 					"parameters": {
 						"text": "\"GO GO GO!!!\""
 					}
 				},
 				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 807626485808861,
+					"parameters": {
+						"audio-file": "SE_CountdownB",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 212603012788698,
+					"parameters": {
+						"audio-file": "M_Factory",
+						"loop": "looping",
+						"volume": "-5",
+						"stereo-pan": "0",
+						"tag-optional": "\"Music\""
+					}
+				},
+				{
 					"id": "set-enabled",
 					"objectClass": "Car1",
-					"sid": 692838680226050,
+					"sid": 160067401934288,
 					"behaviorType": "Car",
 					"parameters": {
 						"state": "enabled"
@@ -117,7 +165,7 @@
 				{
 					"id": "set-enabled",
 					"objectClass": "Car2",
-					"sid": 834716304024521,
+					"sid": 453284986937499,
 					"behaviorType": "Car",
 					"parameters": {
 						"state": "enabled"
@@ -126,7 +174,7 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 967761697923872,
+					"sid": 946681805984420,
 					"parameters": {
 						"seconds": "0.5"
 					}
@@ -134,7 +182,7 @@
 				{
 					"id": "set-text",
 					"objectClass": "CountdownText",
-					"sid": 598437945764906,
+					"sid": 398675246461075,
 					"parameters": {
 						"text": "\"\""
 					}
@@ -980,6 +1028,27 @@
 							"parameters": {
 								"time-scale": "0"
 							}
+						},
+						{
+							"id": "set-paused",
+							"objectClass": "Audio",
+							"sid": 880608393479294,
+							"parameters": {
+								"tag": "\"Music\"",
+								"state": "pause"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 931553453076957,
+							"parameters": {
+								"audio-file": "SE_Pause",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
 						}
 					],
 					"sid": 492482929438193
@@ -1029,6 +1098,27 @@
 							"sid": 730176456628992,
 							"parameters": {
 								"time-scale": "1.0"
+							}
+						},
+						{
+							"id": "set-paused",
+							"objectClass": "Audio",
+							"sid": 411937592622034,
+							"parameters": {
+								"tag": "\"Music\"",
+								"state": "resume"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 397662571485629,
+							"parameters": {
+								"audio-file": "SE_Unpause",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
 							}
 						}
 					],
