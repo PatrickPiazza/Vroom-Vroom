@@ -601,16 +601,7 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "set-visible",
-							"objectClass": "Check",
-							"sid": 473746098885608,
-							"parameters": {
-								"visibility": "visible"
-							}
-						}
-					],
+					"actions": [],
 					"sid": 784758170494273
 				}
 			],
