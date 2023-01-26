@@ -1973,14 +1973,6 @@
 							}
 						},
 						{
-							"id": "save",
-							"objectClass": "System",
-							"sid": 233042375826303,
-							"parameters": {
-								"slot": "\"mysave\""
-							}
-						},
-						{
 							"id": "go-to-layout",
 							"objectClass": "System",
 							"sid": 765595400711965,
@@ -2934,14 +2926,6 @@
 							"parameters": {
 								"variable": "Track3Raced",
 								"value": "true"
-							}
-						},
-						{
-							"id": "save",
-							"objectClass": "System",
-							"sid": 163848893976666,
-							"parameters": {
-								"slot": "\"mysave\""
 							}
 						},
 						{

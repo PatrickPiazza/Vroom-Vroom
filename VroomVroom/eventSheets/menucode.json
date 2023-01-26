@@ -183,6 +183,22 @@
 						"stereo-pan": "0",
 						"tag-optional": "\"\""
 					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 609574317585823,
+					"parameters": {
+						"seconds": "4.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "SavingText",
+					"sid": 565713129865439,
+					"parameters": {
+						"text": "\"\""
+					}
 				}
 			],
 			"sid": 403956482964370
@@ -300,18 +316,6 @@
 				}
 			],
 			"sid": 472219752019931
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "every-tick",
-					"objectClass": "System",
-					"sid": 288211617212407
-				}
-			],
-			"actions": [],
-			"sid": 784659879310242
 		},
 		{
 			"eventType": "group",
@@ -584,6 +588,30 @@
 						}
 					],
 					"sid": 839517539725082
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 673477251276617,
+							"parameters": {
+								"variable": "Track1Raced"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "Check",
+							"sid": 473746098885608,
+							"parameters": {
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 784758170494273
 				}
 			],
 			"sid": 682659385456101
@@ -1260,6 +1288,14 @@
 							"sid": 293711782194976,
 							"parameters": {
 								"mode": "enabled"
+							}
+						},
+						{
+							"id": "save",
+							"objectClass": "System",
+							"sid": 185659176111049,
+							"parameters": {
+								"slot": "\"mysave\""
 							}
 						}
 					],

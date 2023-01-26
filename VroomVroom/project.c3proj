@@ -207,7 +207,9 @@
 			"Video",
 			"CreditsText",
 			"Credit",
-			"Credit2"
+			"Credit2",
+			"Check",
+			"SavingText"
 		],
 		"subfolders": []
 	},

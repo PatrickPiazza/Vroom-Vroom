@@ -1455,14 +1455,6 @@
 							}
 						},
 						{
-							"id": "save",
-							"objectClass": "System",
-							"sid": 455885983021667,
-							"parameters": {
-								"slot": "\"mysave\""
-							}
-						},
-						{
 							"id": "go-to-layout",
 							"objectClass": "System",
 							"sid": 674751047517790,
@@ -1676,14 +1668,6 @@
 							"parameters": {
 								"variable": "Track1Raced",
 								"value": "true"
-							}
-						},
-						{
-							"id": "save",
-							"objectClass": "System",
-							"sid": 367447428240239,
-							"parameters": {
-								"slot": "\"mysave\""
 							}
 						},
 						{
