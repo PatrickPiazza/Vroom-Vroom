@@ -82,6 +82,16 @@
 			"sid": 537641580146549
 		},
 		{
+			"eventType": "variable",
+			"name": "Text",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 132678605538104
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -185,6 +195,46 @@
 					}
 				},
 				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 208454941530037,
+					"parameters": {
+						"variable": "Text",
+						"value": "choose(0, 1, 2, 3, 4)"
+					}
+				}
+			],
+			"sid": 403956482964370
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 233614167758079
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 350378850599453,
+					"parameters": {
+						"variable": "Text",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "SavingText",
+					"sid": 305250360082196,
+					"parameters": {
+						"text": "\"Press 'S' to save your game. Press 'L' to load your previous save.\""
+					}
+				},
+				{
 					"id": "wait",
 					"objectClass": "System",
 					"sid": 609574317585823,
@@ -201,7 +251,195 @@
 					}
 				}
 			],
-			"sid": 403956482964370
+			"sid": 503151778033976
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 783703310419943
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 666591811090595,
+					"parameters": {
+						"variable": "Text",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "SavingText",
+					"sid": 749628666710603,
+					"parameters": {
+						"text": "\"The Video Game: The Video Game\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 870553141515104,
+					"parameters": {
+						"seconds": "4.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "SavingText",
+					"sid": 765831503109561,
+					"parameters": {
+						"text": "\"\""
+					}
+				}
+			],
+			"sid": 621637880023633
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 835443404018073
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 326522054071955,
+					"parameters": {
+						"variable": "Text",
+						"comparison": 0,
+						"value": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "SavingText",
+					"sid": 970446125759098,
+					"parameters": {
+						"text": "\"Tested and apporved by...well, someone I hope!\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 763807865491931,
+					"parameters": {
+						"seconds": "4.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "SavingText",
+					"sid": 957164253732679,
+					"parameters": {
+						"text": "\"\""
+					}
+				}
+			],
+			"sid": 770842885593418
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 480531516846816
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 483070809137604,
+					"parameters": {
+						"variable": "Text",
+						"comparison": 0,
+						"value": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "SavingText",
+					"sid": 428383542080576,
+					"parameters": {
+						"text": "\"Because who doesn't love cars!?\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 959015511223185,
+					"parameters": {
+						"seconds": "4.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "SavingText",
+					"sid": 464366739362238,
+					"parameters": {
+						"text": "\"\""
+					}
+				}
+			],
+			"sid": 240096089003766
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 226945436465248
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 899707465740217,
+					"parameters": {
+						"variable": "Text",
+						"comparison": 0,
+						"value": "4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "SavingText",
+					"sid": 745984638922850,
+					"parameters": {
+						"text": "\"Don't mean to alarm you, but I think your screen has a dead pixel...\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 902375240243147,
+					"parameters": {
+						"seconds": "4.0"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "SavingText",
+					"sid": 396538169474896,
+					"parameters": {
+						"text": "\"\""
+					}
+				}
+			],
+			"sid": 868755130055411
 		},
 		{
 			"eventType": "block",
