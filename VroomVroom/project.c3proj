@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 32700,
+	"savedWithRelease": 32702,
 	"name": "Vroom Vroom",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -208,7 +208,8 @@
 			"CreditsText",
 			"Credit",
 			"Credit2",
-			"SavingText"
+			"SavingText",
+			"File_"
 		],
 		"subfolders": []
 	},
