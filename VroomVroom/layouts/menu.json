@@ -1404,7 +1404,7 @@
 					"type": "SettingsButton",
 					"properties": {
 						"type": "button",
-						"text": "SETTINGS",
+						"text": "SETTINGS/HOW 2 PLAY",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
