@@ -49,17 +49,17 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 1,
-						"imageSpriteId": 9968259,
+						"imageSpriteId": 8021547,
 						"collisionPoly": {
 							"points": [
-								0,
-								0.07800000000000003,
-								0.9339999999999999,
-								0.24000000000000005,
-								0.972,
-								0.6299999999999997,
-								0,
-								0.78
+								0.114,
+								0.224,
+								0.9299999999999999,
+								0.24400000000000005,
+								0.8839999999999999,
+								0.8519999999999998,
+								0.08,
+								0.854
 							]
 						},
 						"useCollisionPoly": true,
@@ -84,17 +84,17 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8996152,
+						"imageSpriteId": 301102,
 						"collisionPoly": {
 							"points": [
-								0,
-								0.078,
-								0.934,
-								0.24,
-								0.972,
-								0.63,
-								0,
-								0.78
+								0.04999999999999999,
+								0.3680000000000001,
+								0.924,
+								0.254,
+								0.8899999999999999,
+								0.646,
+								0.052000000000000005,
+								0.6519999999999999
 							]
 						},
 						"useCollisionPoly": true,
@@ -119,17 +119,17 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2704379,
+						"imageSpriteId": 916059,
 						"collisionPoly": {
 							"points": [
-								0,
-								0.078,
-								0.934,
-								0.24,
-								0.972,
-								0.63,
-								0,
-								0.78
+								0.03600000000000001,
+								0.20999999999999996,
+								0.912,
+								0.29200000000000004,
+								0.7519999999999999,
+								0.866,
+								0.10200000000000001,
+								0.8220000000000001
 							]
 						},
 						"useCollisionPoly": true,
@@ -154,17 +154,17 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7912424,
+						"imageSpriteId": 4775755,
 						"collisionPoly": {
 							"points": [
-								0,
-								0.078,
-								0.934,
-								0.24,
-								0.972,
-								0.63,
-								0,
-								0.78
+								0.18,
+								0.18200000000000002,
+								0.7039999999999998,
+								0.18199999999999994,
+								0.6939999999999997,
+								0.9180000000000001,
+								0.21799999999999997,
+								0.9240000000000002
 							]
 						},
 						"useCollisionPoly": true,
