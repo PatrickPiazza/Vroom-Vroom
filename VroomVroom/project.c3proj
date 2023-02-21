@@ -172,7 +172,6 @@
 			"Arrow",
 			"flower",
 			"Tree",
-			"Splash",
 			"Space",
 			"Wave",
 			"Island",
@@ -209,7 +208,8 @@
 			"Credit",
 			"Credit2",
 			"SavingText",
-			"File_"
+			"File_",
+			"grASS"
 		],
 		"subfolders": []
 	},

@@ -669,16 +669,7 @@
 				},
 				{
 					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Car1",
-							"sid": 740702675211926,
-							"parameters": {
-								"object": "Splash"
-							}
-						}
-					],
+					"conditions": [],
 					"actions": [
 						{
 							"id": "set-visible",
@@ -902,16 +893,7 @@
 				},
 				{
 					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "Car2",
-							"sid": 615128224199963,
-							"parameters": {
-								"object": "Splash"
-							}
-						}
-					],
+					"conditions": [],
 					"actions": [
 						{
 							"id": "set-visible",
