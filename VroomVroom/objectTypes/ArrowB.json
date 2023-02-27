@@ -1,7 +1,7 @@
 {
-	"name": "wp",
+	"name": "ArrowB",
 	"plugin-id": "Sprite",
-	"sid": 589576767015812,
+	"sid": 824662626817056,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,25 +11,45 @@
 			{
 				"frames": [
 					{
-						"width": 1920,
-						"height": 1080,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8142590,
+						"imageSpriteId": 9033925,
+						"collisionPoly": {
+							"points": [
+								0.332,
+								0.332,
+								0.5,
+								0.308,
+								0.656,
+								0.344,
+								0.832,
+								0.5,
+								0.36,
+								0.36,
+								0.5,
+								0.332,
+								0.628,
+								0.372,
+								0,
+								0.5
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 937586650865010,
-				"name": "Default",
+				"sid": 622217082629193,
+				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 5
+				"speed": 7
 			}
 		],
 		"subfolders": []

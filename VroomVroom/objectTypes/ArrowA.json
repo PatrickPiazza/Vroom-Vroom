@@ -1,7 +1,7 @@
 {
-	"name": "flower",
+	"name": "ArrowA",
 	"plugin-id": "Sprite",
-	"sid": 985426119178696,
+	"sid": 426660841104402,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,24 +18,24 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4350687,
+						"imageSpriteId": 8983568,
 						"collisionPoly": {
 							"points": [
-								0.336,
-								0.336,
-								0.5,
-								0.12,
-								0.732,
-								0.268,
-								0.908,
-								0.5,
-								0.744,
-								0.744,
-								0.5,
-								0.672,
 								0.34,
-								0.66,
-								0.084,
+								0.34,
+								0.5,
+								0.24,
+								0.664,
+								0.336,
+								0.536,
+								0.5,
+								0.536,
+								0.536,
+								0.5,
+								0.856,
+								0.48,
+								0.52,
+								0.48,
 								0.5
 							]
 						},
@@ -43,13 +43,13 @@
 						"duration": 1
 					}
 				],
-				"sid": 391575629012422,
+				"sid": 957022669714221,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 5
+				"speed": 7
 			}
 		],
 		"subfolders": []
