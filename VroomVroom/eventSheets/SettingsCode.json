@@ -126,10 +126,10 @@
 				{
 					"id": "set-css-style",
 					"objectClass": "MusicToggle",
-					"sid": 436774418504314,
+					"sid": 569365390107227,
 					"parameters": {
-						"property-name": "\"font-color\"",
-						"value": "\"1px solid white\""
+						"property-name": "\"color\"",
+						"value": "\"white\""
 					}
 				}
 			],
