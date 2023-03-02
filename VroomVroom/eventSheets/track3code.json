@@ -3019,6 +3019,44 @@
 						}
 					],
 					"sid": 311578711908224
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car1",
+							"sid": 268687728482008,
+							"parameters": {
+								"instance-variable": "LapsComplete",
+								"comparison": 5,
+								"value": "1"
+							}
+						},
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Car2",
+							"sid": 696338314930041,
+							"parameters": {
+								"instance-variable": "LapsComplete",
+								"comparison": 5,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "ArrowA",
+							"sid": 290313273142687
+						},
+						{
+							"id": "destroy",
+							"objectClass": "ArrowB",
+							"sid": 879558297031805
+						}
+					],
+					"sid": 675009138220496
 				}
 			],
 			"sid": 140216387731376
