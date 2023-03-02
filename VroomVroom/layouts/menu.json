@@ -883,7 +883,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 5440,
-						"y": 3136,
+						"y": 2656,
 						"width": 1088,
 						"height": 416,
 						"originX": 0,
@@ -916,7 +916,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 5696,
-						"y": 3520,
+						"y": 3360,
 						"width": 544,
 						"height": 160,
 						"originX": 0,
@@ -947,7 +947,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 5696,
-						"y": 3744,
+						"y": 3584,
 						"width": 544,
 						"height": 160,
 						"originX": 0,
