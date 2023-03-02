@@ -208,10 +208,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1500,
-						"y": 792,
+						"x": 1502.8261912308587,
+						"y": 794.993963637709,
 						"width": 250,
-						"height": 231.00001492245724,
+						"height": 253.00447206413745,
 						"originX": 0.512,
 						"originY": 0.492,
 						"color": [
@@ -432,6 +432,55 @@
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
+				{
+					"type": "P1Tag",
+					"properties": {
+						"text": "P1",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 34.900000000000006,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 209,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 1378,
+						"y": 940,
+						"width": 248,
+						"height": 65,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
 				{
 					"type": "PauseText",
 					"properties": {
@@ -793,6 +842,55 @@
 						"y": 155,
 						"width": 1429,
 						"height": 137,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "P2Tag",
+					"properties": {
+						"text": "P2",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 34.900000000000006,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 210,
+					"instanceVariables": {},
+					"behaviors": {
+						"Pin": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"world": {
+						"x": 1612,
+						"y": 952,
+						"width": 248,
+						"height": 65,
 						"originX": 0,
 						"originY": 0,
 						"color": [

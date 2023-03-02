@@ -1,0 +1,15 @@
+{
+	"name": "P2Tag",
+	"plugin-id": "Text",
+	"sid": 368137575586785,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 215295671389856
+		}
+	],
+	"effectTypes": []
+}

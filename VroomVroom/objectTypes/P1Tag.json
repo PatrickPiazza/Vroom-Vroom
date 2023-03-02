@@ -1,0 +1,15 @@
+{
+	"name": "P1Tag",
+	"plugin-id": "Text",
+	"sid": 933686607001884,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pin",
+			"name": "Pin",
+			"sid": 255785480458591
+		}
+	],
+	"effectTypes": []
+}

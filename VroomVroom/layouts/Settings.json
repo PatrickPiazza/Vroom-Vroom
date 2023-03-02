@@ -586,6 +586,80 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "SavingText",
+					"properties": {
+						"text": "Press 'Esc' during races to pause.",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 35.600000000000016,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 211,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 153,
+						"y": 1652,
+						"width": 768,
+						"height": 256,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "MusicToggle",
+					"properties": {
+						"type": "checkbox",
+						"text": "Music",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": false,
+						"checked": true,
+						"id": "",
+						"class": ""
+					},
+					"uid": 212,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1077,
+						"y": 1762,
+						"width": 358,
+						"height": 134,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
 				}
 			],
 			"sid": 388651430513190,

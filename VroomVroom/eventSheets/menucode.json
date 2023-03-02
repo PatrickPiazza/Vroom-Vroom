@@ -185,13 +185,13 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 105599417831280,
+					"sid": 616234180255332,
 					"parameters": {
 						"audio-file": "M_Title",
 						"loop": "looping",
 						"volume": "-5",
 						"stereo-pan": "0",
-						"tag-optional": "\"\""
+						"tag-optional": "\"Music\""
 					}
 				},
 				{
@@ -204,7 +204,60 @@
 					}
 				}
 			],
-			"sid": 403956482964370
+			"sid": 403956482964370,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 924521788114583,
+							"parameters": {
+								"variable": "MusicOn"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-muted",
+							"objectClass": "Audio",
+							"sid": 856181065419696,
+							"parameters": {
+								"tag": "\"Music\"",
+								"state": "muted"
+							}
+						}
+					],
+					"sid": 791816578899607
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 753701215683633,
+							"parameters": {
+								"variable": "MusicOn"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-muted",
+							"objectClass": "Audio",
+							"sid": 800717249871545,
+							"parameters": {
+								"tag": "\"Music\"",
+								"state": "unmuted"
+							}
+						}
+					],
+					"sid": 344846341966416
+				}
+			]
 		},
 		{
 			"eventType": "block",

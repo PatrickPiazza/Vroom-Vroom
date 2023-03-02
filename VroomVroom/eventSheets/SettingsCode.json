@@ -12,6 +12,16 @@
 			"sid": 745521849518264
 		},
 		{
+			"eventType": "variable",
+			"name": "MusicOn",
+			"type": "boolean",
+			"initialValue": "true",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 870503702808486
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -102,6 +112,24 @@
 					"sid": 936148577112402,
 					"parameters": {
 						"text": "\"Floppy\""
+					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "MusicToggle",
+					"sid": 456157655536891,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"2em\""
+					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "MusicToggle",
+					"sid": 436774418504314,
+					"parameters": {
+						"property-name": "\"font-color\"",
+						"value": "\"1px solid white\""
 					}
 				}
 			],
@@ -217,6 +245,18 @@
 						"variable": "BadClicks",
 						"value": "1"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 373583741582274,
+					"parameters": {
+						"audio-file": "SE_Pause",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 721055858437794
@@ -251,6 +291,51 @@
 				}
 			],
 			"sid": 456553129688589
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-checked",
+					"objectClass": "MusicToggle",
+					"sid": 272145005447971
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 559771491059216,
+					"parameters": {
+						"variable": "MusicOn",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 219780819504867
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-checked",
+					"objectClass": "MusicToggle",
+					"sid": 918355989176661,
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 963430956018339,
+					"parameters": {
+						"variable": "MusicOn",
+						"value": "false"
+					}
+				}
+			],
+			"sid": 236066426652382
 		}
 	],
 	"sid": 445961419060712

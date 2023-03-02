@@ -186,9 +186,90 @@
 					"parameters": {
 						"text": "\"\""
 					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "P1Tag",
+					"sid": 422138867794819,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Car1",
+						"x": true,
+						"y": true,
+						"angle": false,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				},
+				{
+					"id": "pin-to-object-properties",
+					"objectClass": "P2Tag",
+					"sid": 277886614930133,
+					"behaviorType": "Pin",
+					"parameters": {
+						"pin-to": "Car2",
+						"x": true,
+						"y": true,
+						"angle": false,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
 				}
 			],
 			"sid": 761012332834550
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 219748065619247,
+					"parameters": {
+						"variable": "MusicOn"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-muted",
+					"objectClass": "Audio",
+					"sid": 862884430215404,
+					"parameters": {
+						"tag": "\"Music\"",
+						"state": "muted"
+					}
+				}
+			],
+			"sid": 133883883878821
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 606106017423191,
+					"parameters": {
+						"variable": "MusicOn"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-muted",
+					"objectClass": "Audio",
+					"sid": 242112551014813,
+					"parameters": {
+						"tag": "\"Music\"",
+						"state": "unmuted"
+					}
+				}
+			],
+			"sid": 367473299939801
 		},
 		{
 			"eventType": "block",
