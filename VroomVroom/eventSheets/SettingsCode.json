@@ -139,6 +139,65 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 102931896691450
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 217654984160490,
+					"parameters": {
+						"variable": "MusicOn"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-checked",
+					"objectClass": "MusicToggle",
+					"sid": 786452371153630,
+					"parameters": {
+						"state": "checked"
+					}
+				}
+			],
+			"sid": 437122298164861
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 608222063872633
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 334505170843563,
+					"parameters": {
+						"variable": "MusicOn"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-checked",
+					"objectClass": "MusicToggle",
+					"sid": 339285902858671,
+					"parameters": {
+						"state": "unchecked"
+					}
+				}
+			],
+			"sid": 480742329392811
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "compare-selected-item-text",
 					"objectClass": "FunMenu",
 					"sid": 153212678326263,
@@ -296,12 +355,29 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-clicked",
+					"objectClass": "MusicToggle",
+					"sid": 120580673368275
+				},
+				{
 					"id": "is-checked",
 					"objectClass": "MusicToggle",
-					"sid": 272145005447971
+					"sid": 778987598594414
 				}
 			],
 			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 945830184775481,
+					"parameters": {
+						"audio-file": "M_Title",
+						"loop": "looping",
+						"volume": "-5",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
 				{
 					"id": "set-boolean-eventvar",
 					"objectClass": "System",
@@ -318,6 +394,11 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-clicked",
+					"objectClass": "MusicToggle",
+					"sid": 228689117859272
+				},
+				{
 					"id": "is-checked",
 					"objectClass": "MusicToggle",
 					"sid": 918355989176661,
@@ -325,6 +406,11 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 720380703446466
+				},
 				{
 					"id": "set-boolean-eventvar",
 					"objectClass": "System",

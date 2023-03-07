@@ -92,12 +92,31 @@
 			"sid": 132678605538104
 		},
 		{
+			"eventType": "variable",
+			"name": "MusicStarted",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 427142196393800
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
 					"sid": 180728753236789
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 865651011004956,
+					"parameters": {
+						"variable": "MusicStarted"
+					},
+					"isInverted": true
 				}
 			],
 			"actions": [
@@ -202,9 +221,129 @@
 						"variable": "Text",
 						"value": "choose(0, 1, 2, 3, 4)"
 					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 853208468087194,
+					"parameters": {
+						"variable": "MusicStarted",
+						"value": "true"
+					}
 				}
 			],
-			"sid": 403956482964370,
+			"sid": 403956482964370
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 346184417026585
+				},
+				{
+					"id": "compare-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 802103401605805,
+					"parameters": {
+						"variable": "MusicStarted"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-css-style",
+					"objectClass": "StartButton",
+					"sid": 145318724154010,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "Track1Button",
+					"sid": 822355877301475,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "Car1A",
+					"sid": 947319057452134,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "ReadyButton",
+					"sid": 786267389721200,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "BackererButton",
+					"sid": 324462524828857,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "NextextButton",
+					"sid": 909845583033699,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				},
+				{
+					"id": "set-css-style",
+					"objectClass": "SettingsButton",
+					"sid": 891617173371906,
+					"parameters": {
+						"property-name": "\"font-size\"",
+						"value": "\"1em\""
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Car1",
+					"sid": 469446159419559,
+					"parameters": {
+						"animation": "\"NA\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Car2",
+					"sid": 801699060692202,
+					"parameters": {
+						"animation": "\"NA\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 959554126299101,
+					"parameters": {
+						"variable": "Text",
+						"value": "choose(0, 1, 2, 3, 4)"
+					}
+				}
+			],
+			"sid": 404546401715386,
 			"children": [
 				{
 					"eventType": "block",
@@ -212,7 +351,7 @@
 						{
 							"id": "compare-boolean-eventvar",
 							"objectClass": "System",
-							"sid": 924521788114583,
+							"sid": 776536651989688,
 							"parameters": {
 								"variable": "MusicOn"
 							},
@@ -223,14 +362,14 @@
 						{
 							"id": "set-muted",
 							"objectClass": "Audio",
-							"sid": 856181065419696,
+							"sid": 392660763592119,
 							"parameters": {
 								"tag": "\"Music\"",
 								"state": "muted"
 							}
 						}
 					],
-					"sid": 791816578899607
+					"sid": 258798003425573
 				},
 				{
 					"eventType": "block",
@@ -238,7 +377,7 @@
 						{
 							"id": "compare-boolean-eventvar",
 							"objectClass": "System",
-							"sid": 753701215683633,
+							"sid": 180671787230444,
 							"parameters": {
 								"variable": "MusicOn"
 							}
@@ -248,14 +387,14 @@
 						{
 							"id": "set-muted",
 							"objectClass": "Audio",
-							"sid": 800717249871545,
+							"sid": 131519307643522,
 							"parameters": {
 								"tag": "\"Music\"",
 								"state": "unmuted"
 							}
 						}
 					],
-					"sid": 344846341966416
+					"sid": 545086477190600
 				}
 			]
 		},
@@ -1806,11 +1945,6 @@
 				}
 			],
 			"actions": [
-				{
-					"id": "stop-all",
-					"objectClass": "Audio",
-					"sid": 707503620039614
-				},
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
