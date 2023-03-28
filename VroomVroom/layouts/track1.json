@@ -777,7 +777,7 @@
 					"properties": {
 						"text": "P1",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "RuslanDisplay-Regular",
 						"size": 34.900000000000006,
 						"line-height": 0,
 						"bold": false,
@@ -826,7 +826,7 @@
 					"properties": {
 						"text": "PAUSE",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "RuslanDisplay-Regular",
 						"size": 141.9,
 						"line-height": 0,
 						"bold": false,
@@ -898,7 +898,7 @@
 					"properties": {
 						"text": "RESUME",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "RuslanDisplay-Regular",
 						"size": 87.29999999999991,
 						"line-height": 0,
 						"bold": false,
@@ -941,7 +941,7 @@
 					"properties": {
 						"text": "P1 Laps:",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "RuslanDisplay-Regular",
 						"size": 75.19999999999989,
 						"line-height": 0,
 						"bold": false,
@@ -984,7 +984,7 @@
 					"properties": {
 						"text": "P2 Laps:",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "RuslanDisplay-Regular",
 						"size": 75.19999999999989,
 						"line-height": 0,
 						"bold": false,
@@ -1027,7 +1027,7 @@
 					"properties": {
 						"text": "",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "RuslanDisplay-Regular",
 						"size": 60.300000000000075,
 						"line-height": 0,
 						"bold": false,
@@ -1070,7 +1070,7 @@
 					"properties": {
 						"text": "3",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "RuslanDisplay-Regular",
 						"size": 130.5,
 						"line-height": 0,
 						"bold": false,
@@ -1113,7 +1113,7 @@
 					"properties": {
 						"text": "Text",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "RuslanDisplay-Regular",
 						"size": 62.80000000000001,
 						"line-height": 0,
 						"bold": false,
@@ -1156,7 +1156,7 @@
 					"properties": {
 						"text": "Text",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "RuslanDisplay-Regular",
 						"size": 62.80000000000001,
 						"line-height": 0,
 						"bold": false,
@@ -1199,7 +1199,7 @@
 					"properties": {
 						"text": "P2",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "RuslanDisplay-Regular",
 						"size": 34.900000000000006,
 						"line-height": 0,
 						"bold": false,

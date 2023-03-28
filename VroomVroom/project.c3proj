@@ -531,6 +531,14 @@
 					"file-info": {
 						"purpose": "none"
 					}
+				},
+				{
+					"name": "RuslanDisplay-Regular.ttf",
+					"type": "application/font-sfnt",
+					"sid": 508696419441840,
+					"file-info": {
+						"purpose": "none"
+					}
 				}
 			],
 			"subfolders": []
