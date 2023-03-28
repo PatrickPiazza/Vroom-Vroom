@@ -539,6 +539,30 @@
 					"file-info": {
 						"purpose": "none"
 					}
+				},
+				{
+					"name": "SedgwickAveDisplay-Regular.ttf",
+					"type": "application/font-sfnt",
+					"sid": 631381250163160,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "BigShouldersStencilDisplay-VariableFont_wght.ttf",
+					"type": "application/font-sfnt",
+					"sid": 389755516314185,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "MajorMonoDisplay-Regular.ttf",
+					"type": "application/font-sfnt",
+					"sid": 348048038105691,
+					"file-info": {
+						"purpose": "none"
+					}
 				}
 			],
 			"subfolders": []

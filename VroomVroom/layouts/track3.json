@@ -972,7 +972,7 @@
 					"properties": {
 						"text": "P2",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "BigShouldersStencilDisplay-VariableFont_wght",
 						"size": 34.900000000000006,
 						"line-height": 0,
 						"bold": false,
@@ -1021,7 +1021,7 @@
 					"properties": {
 						"text": "P1",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "BigShouldersStencilDisplay-VariableFont_wght",
 						"size": 34.900000000000006,
 						"line-height": 0,
 						"bold": false,
@@ -1070,7 +1070,7 @@
 					"properties": {
 						"text": "PAUSE",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "BigShouldersStencilDisplay-VariableFont_wght",
 						"size": 141.9,
 						"line-height": 0,
 						"bold": false,
@@ -1092,7 +1092,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1568,
+						"x": 1725,
 						"y": 896,
 						"width": 672,
 						"height": 288,
@@ -1142,7 +1142,7 @@
 					"properties": {
 						"text": "RESUME",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "BigShouldersStencilDisplay-VariableFont_wght",
 						"size": 87.29999999999991,
 						"line-height": 0,
 						"bold": false,
@@ -1164,8 +1164,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1620,
-						"y": 1216,
+						"x": 1748,
+						"y": 1220,
 						"width": 512,
 						"height": 160,
 						"originX": 0,
@@ -1185,7 +1185,7 @@
 					"properties": {
 						"text": "P1 Laps:",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "BigShouldersStencilDisplay-VariableFont_wght",
 						"size": 75.19999999999989,
 						"line-height": 0,
 						"bold": false,
@@ -1228,7 +1228,7 @@
 					"properties": {
 						"text": "P2 Laps:",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "BigShouldersStencilDisplay-VariableFont_wght",
 						"size": 75.19999999999989,
 						"line-height": 0,
 						"bold": false,
@@ -1271,7 +1271,7 @@
 					"properties": {
 						"text": "",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "BigShouldersStencilDisplay-VariableFont_wght",
 						"size": 60.300000000000075,
 						"line-height": 0,
 						"bold": false,
@@ -1314,7 +1314,7 @@
 					"properties": {
 						"text": "3",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "BigShouldersStencilDisplay-VariableFont_wght",
 						"size": 130.5,
 						"line-height": 0,
 						"bold": false,
@@ -1357,7 +1357,7 @@
 					"properties": {
 						"text": "Text",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "BigShouldersStencilDisplay-VariableFont_wght",
 						"size": 62.80000000000001,
 						"line-height": 0,
 						"bold": false,
@@ -1400,7 +1400,7 @@
 					"properties": {
 						"text": "Text",
 						"enable-bbcode": true,
-						"font": "Arial",
+						"font": "BigShouldersStencilDisplay-VariableFont_wght",
 						"size": 62.80000000000001,
 						"line-height": 0,
 						"bold": false,
