@@ -226,50 +226,32 @@
 				{
 					"id": "compare-boolean-eventvar",
 					"objectClass": "System",
-					"sid": 230227439987511,
+					"sid": 151458946940085,
 					"parameters": {
 						"variable": "MusicOn"
 					},
 					"isInverted": true
-				}
-			],
-			"actions": [
+				},
 				{
-					"id": "set-muted",
+					"id": "is-tag-playing",
 					"objectClass": "Audio",
-					"sid": 888583522386353,
+					"sid": 678526707916614,
 					"parameters": {
-						"tag": "\"Music\"",
-						"state": "muted"
-					}
-				}
-			],
-			"sid": 321605008703947
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-boolean-eventvar",
-					"objectClass": "System",
-					"sid": 983796293900152,
-					"parameters": {
-						"variable": "MusicOn"
+						"tag": "\"Music\""
 					}
 				}
 			],
 			"actions": [
 				{
-					"id": "set-muted",
+					"id": "stop",
 					"objectClass": "Audio",
-					"sid": 791901239290386,
+					"sid": 138934789153908,
 					"parameters": {
-						"tag": "\"Music\"",
-						"state": "unmuted"
+						"tag": "\"Music\""
 					}
 				}
 			],
-			"sid": 544320999855394
+			"sid": 263662002409102
 		},
 		{
 			"eventType": "block",
