@@ -239,7 +239,8 @@
 			"Track3",
 			"Track4",
 			"Settings",
-			"Secret"
+			"Secret",
+			"Logo"
 		],
 		"subfolders": []
 	},
@@ -251,7 +252,8 @@
 			"Track3Code",
 			"Track4Code",
 			"SettingsCode",
-			"SecretCode"
+			"SecretCode",
+			"LogoCode"
 		],
 		"subfolders": []
 	},
